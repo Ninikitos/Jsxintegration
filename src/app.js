@@ -86,13 +86,17 @@ export class App extends React.Component {
 
   onPriviousClick = (event) => {
     print('onPriviousClick');
-    this.setState(state => ({ index: state.index > 0 ? state.index - 1 : 0}));
+    this.setState(state => ({ 
+      index: state.index > 0 ? state.index - 1 : 0
+    }));
   }
   // onCurrentClick = (event) => {}
   onNextClick = (event) => {
     print('onNextClick');
     const maxIndex = this.components.length - 1;
-    this.setState(state => ({ index: state.index < maxIndex - 1 ? state.index + 1 : maxIndex }));
+    this.setState(state => ({ 
+      index: state.index < maxIndex - 1 ? state.index + 1 : maxIndex
+    }));
   }
 
   render () {

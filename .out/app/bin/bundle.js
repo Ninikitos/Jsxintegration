@@ -5130,11 +5130,11 @@ var mxs_bundle = (function (exports, lumin) {
           // DialogContent
 
           this._propertyDescriptors['buttonType'] = new EnumProperty$1('buttonType', 'setButtonType', true, EclipseButtonType, 'EclipseButtonType');
-          this._propertyDescriptors['cancelText'] = new PrimitiveTypeProperty('cancelText', 'setCancelText', true, 'string');
-          this._propertyDescriptors['cancelIcon'] = new EnumProperty$1('cancelIcon', 'setCancelIcon', true, SystemIcons, 'SystemIcon');
-          this._propertyDescriptors['confirmText'] = new PrimitiveTypeProperty('confirmText', 'setConfirmText', true, 'string');
-          this._propertyDescriptors['confirmIcon'] = new EnumProperty$1('confirmIcon', 'setConfirmIcon', true, SystemIcons, 'SystemIcon');
-          this._propertyDescriptors['expireTime'] = new PrimitiveTypeProperty('expireTime', 'setExpireTime', true, 'number');
+          this._propertyDescriptors['cancelText'] = new PrimitiveTypeProperty$1('cancelText', 'setCancelButtonText', true, 'string');
+          this._propertyDescriptors['cancelIcon'] = new EnumProperty$1('cancelIcon', 'setCancelButtonIcon', true, SystemIcons, 'SystemIcon');
+          this._propertyDescriptors['confirmText'] = new PrimitiveTypeProperty$1('confirmText', 'setConfirmButtonText', true, 'string');
+          this._propertyDescriptors['confirmIcon'] = new EnumProperty$1('confirmIcon', 'setConfirmButtonIcon', true, SystemIcons, 'SystemIcon');
+          this._propertyDescriptors['expireTime'] = new PrimitiveTypeProperty$1('expireTime', 'setExpireTime', true, 'number');
       }
 
 
@@ -5143,29 +5143,59 @@ var mxs_bundle = (function (exports, lumin) {
 
           this.validate(undefined, undefined, properties);
 
-          let { text, title, type, layout } = properties;
+          let text = properties.text;
 
           if (text === undefined) {
               text = this._getText(properties.children);
           }
 
-          type = type === undefined
-              ? lumin.ui.DialogType.kDualAction
-              : DialogType[type];
+          const type = this.getPropertyValue('type', 'dual-action', properties);
+          const layout = this.getPropertyValue('layout', 'standard', properties);
+          const scrolling = this.getPropertyValue('scrolling', false, properties);
+          const title = properties.title;
 
-          layout = layout === undefined
-              ? DialogLayout.kStandard
-              : DialogLayout[layout];
+          let element;
 
-          const element = title === undefined
-              ? lumin.ui.UiTab.Create(prism, type, layout)
-              : lumin.ui.UiTab.CreateEclipseTab(prism, title, text, null, type, layout);
+          if (scrolling) {
+              element = lumin.ui.UiDialog.CreateScrolling(prism, title, text, DialogType[type], DialogLayout[layout]);
+          } else {
+              element = title === undefined
+                  ? lumin.ui.UiDialog.Create(prism, DialogType[type], DialogLayout[layout])
+                  : lumin.ui.UiDialog.Create(prism, title, text, null, DialogType[type], DialogLayout[layout]);
+          }
 
           const unapplied = this.excludeProperties(properties, ['children', 'text', 'title', 'type', 'layout']);
 
           this.apply(element, undefined, unapplied);
 
+          // Initialize the dialog:
+          // - For modal dialogs, the cursor will transition to one of the dialog's action buttons
+          // and will be constrained to the dialog area.
+          // - For timed, modeless dialogs, the expiration timer will be started automatically.
+          element.init();
+
           return element;
+      }
+
+      validate(element, oldProperties, newProperties) {
+          super.validate(element, oldProperties, newProperties);
+
+          PropertyDescriptor.throwIfNotTypeOf(newProperties.scrolling, 'boolean');
+          PropertyDescriptor.throwIfNotTypeOf(newProperties.title, 'string');
+      }
+
+      _getText(children) {
+          let text;
+
+          if (Array.isArray(children)) {
+              text = children.join('');
+          } else if (typeof children === 'number') {
+              text = children.toString();
+          } else {
+              text = children;
+          }
+
+          return text;
       }
   }
 
@@ -24820,6 +24850,16 @@ var mxs_bundle = (function (exports, lumin) {
       return react.createElement('scrollView', props);
   }
 
+  function Dialog (props) {
+      // return (<dialog {...props} />);
+      return react.createElement('dialog', props);
+  }
+
+  function CircleConfirmation (props) {
+      // return (<circleConfirmation {...props} />);
+      return react.createElement('circleConfirmation', props);
+  }
+
   var mxs = {
       _init() {
           this._nativeFactory = new configuration.nativeFactory(configuration.nativeMapping);
@@ -25158,11 +25198,56 @@ var mxs_bundle = (function (exports, lumin) {
   }
 
   class CircleConfirmationComp extends react.Component {
+    constructor(...args) {
+      super(...args);
+
+      _defineProperty(this, "onConfirmationCanceled", event => {
+        print("onConfirmationCanceled");
+        this.setState(state => ({}));
+      });
+
+      _defineProperty(this, "onConfirmationUpdate", event => {
+        print("onConfirmationUpdate");
+      });
+
+      _defineProperty(this, "onConfirmationComplete", event => {
+        print("onConfirmationComplete");
+        this.setState(state => {
+          return {};
+        });
+      });
+
+      _defineProperty(this, "onDialogCancel", event => {
+        print("onDialogCancel");
+      });
+
+      _defineProperty(this, "onDialogConfirm", event => {
+        print("onDialogConfirm");
+      });
+    }
+
     render() {
       return react.createElement(View, null, react.createElement(Text, {
-        localPosition: [-0.2, 0.3, 0],
+        localPosition: [-0.32, 0.3, 0],
         textSize: 0.04
-      }, "This is a circleConfirmation Component"));
+      }, "This is a circleConfirmation Component"), react.createElement(CircleConfirmation, {
+        onConfirmationCanceled: this.onConfirmationCanceled,
+        onConfirmationComplete: this.onConfirmationComplete,
+        onConfirmationUpdate: this.onConfirmationUpdate,
+        height: 0.2
+      }), react.createElement(Dialog, {
+        buttonType: "text-with-icon",
+        dialogType: "dual-action",
+        dialogLayout: "wide",
+        cancelIcon: "thumbs-up",
+        cancelText: "Cancel",
+        confirmIcon: "check",
+        confirmText: "Confirm",
+        title: "This is title",
+        text: "This is text",
+        onCancel: this.onDialogCancel,
+        onConfirm: this.onDialogConfirm
+      }));
     }
 
   }

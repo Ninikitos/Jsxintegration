@@ -114,9 +114,9 @@
   },
   {
    "compression": 8,
-   "hash": "49b69adf80185c296561a9b4d9844ef2a6f660a1",
+   "hash": "ee3e5a8dbdd109fe0ce31691094dc0fb3a95fc68",
    "pkgpath": "bin/bundle.js",
-   "size": 1063054,
+   "size": 1065955,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/bundle.js"
   },
   {
@@ -149,9 +149,9 @@
   },
   {
    "compression": 8,
-   "hash": "b434deae134ab796ecd68cf9a934ae4fc0688524",
+   "hash": "c942d0d16d72d8acb53093bdcf20165c75b832ef",
    "pkgpath": "bin/node_modules/magic-script-components/index.js",
-   "size": 516,
+   "size": 544,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/index.js"
   },
   {
@@ -1052,9 +1052,9 @@
   },
   {
    "compression": 8,
-   "hash": "3c4fc881cc7599e1e3636a1b358d0836173cd045",
+   "hash": "49d8b4b3fba827a7eaefa42087f8282a1104221c",
    "pkgpath": "bin/node_modules/magic-script-components/src/components.js",
-   "size": 1277,
+   "size": 1575,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/components.js"
   },
   {
@@ -1136,9 +1136,9 @@
   },
   {
    "compression": 8,
-   "hash": "cd5b5a5166457fc95f810ba06e77379312c123c0",
+   "hash": "778e840e07bc5711efbdfc337df22da5344ba396",
    "pkgpath": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/dialog-builder.js",
-   "size": 2266,
+   "size": 3612,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/dialog-builder.js"
   },
   {
@@ -2256,9 +2256,9 @@
   },
   {
    "compression": 8,
-   "hash": "a90371b108af5c4ecf14a4f76a17f9737438b562",
+   "hash": "c1f77718ebd3645e886b3f99d1b86e1c69b710db",
    "pkgpath": "bin/src/components/circleConfirmation.js",
-   "size": 504,
+   "size": 1923,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/circleConfirmation.js"
   },
   {
@@ -2508,7 +2508,7 @@
   },
   {
    "compression": 8,
-   "hash": "dd179394f215120798fe19e3bb813e9c621d5ae1",
+   "hash": "dc8f11696e9c132c8af1ad9f214a9efa97c1b69b",
    "pkgpath": "./digest.sha512.signed",
    "size": 76976,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/digest.sha512.signed"

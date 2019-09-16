@@ -15,7 +15,7 @@ class TextEditComp extends React.Component {
           padding={[0.5, 0.3, 0.5, 0.3]}
           textAlignment="center"
           lineSpacing={0.3}
-          charSpacing={0.02}></TextEdit>
+          charSpacing={0.02} />
         <Text localPosition={[-0.9, 0.350, 0]} textSize={0.03}>Right aligment</Text>
         <TextEdit
           localPosition={[-0.9, 0.3, 0]}
