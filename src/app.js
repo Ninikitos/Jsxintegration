@@ -39,7 +39,7 @@ import WebViewComp from './components/webview.js';
 
 
 
-export class App extends React.Component {
+export default class App extends React.Component {
   state = {
      index: 0
   };

@@ -1,6 +1,5 @@
 import React from '../../node_modules/react/index.js';
 import { View, Text, Button } from '../../node_modules/magic-script-components/src/components.js';
-import '../../node_modules/magic-script-components/index.js';
 
 class ButtonComp extends React.Component {
   render() {

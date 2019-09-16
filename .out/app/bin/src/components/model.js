@@ -1,7 +1,6 @@
 import React from '../../node_modules/react/index.js';
-import { View, Text, Model, Slider, Button, Toggle } from '../../node_modules/magic-script-components/src/components.js';
-import '../../node_modules/magic-script-components/index.js';
 import { defineProperty as _defineProperty } from '../../_virtual/_rollupPluginBabelHelpers.js';
+import { View, Text, Model, Slider, Button, Toggle } from '../../node_modules/magic-script-components/src/components.js';
 
 class ModelComp extends React.Component {
   constructor(...args) {

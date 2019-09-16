@@ -1,6 +1,5 @@
 import React from '../../node_modules/react/index.js';
 import { View, Text } from '../../node_modules/magic-script-components/src/components.js';
-import '../../node_modules/magic-script-components/index.js';
 
 class SpinnerComp extends React.Component {
   render() {

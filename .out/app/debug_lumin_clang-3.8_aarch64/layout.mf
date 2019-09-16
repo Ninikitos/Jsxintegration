@@ -72,1064 +72,544 @@
   "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/index.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/components.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/components.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/index.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/index.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/configuration.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/configuration.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/configuration.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/configuration.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/core/native-factory.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/core/native-factory.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/core/native-factory.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/core/native-factory.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/index.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/index.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/component-mapping.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/component-mapping.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/component-mapping.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/component-mapping.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/app-prism-controller.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/app-prism-controller.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/controllers/app-prism-controller.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/controllers/app-prism-controller.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/builders/controller-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/builders/controller-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/controllers/builders/controller-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/controllers/builders/controller-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/mxs-prism-controller.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/controllers/mxs-prism-controller.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/controllers/mxs-prism-controller.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/controllers/mxs-prism-controller.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/audio-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/audio-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/audio-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/audio-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/button-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/button-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/button-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/button-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/circle-confirmation-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/circle-confirmation-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/circle-confirmation-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/circle-confirmation-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/color-picker-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/color-picker-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/color-picker-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/color-picker-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/date-picker-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/date-picker-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dialog-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dialog-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/dialog-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/dialog-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/dropdown-list-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/dropdown-list-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/element-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/element-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/element-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/element-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/grid-layout-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/grid-layout-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/grid-layout-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/grid-layout-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/group-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/group-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/group-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/group-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/image-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/image-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/image-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/image-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/layout-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/layout-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/layout-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/layout-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/light-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/light-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/light-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/light-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/line-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/line-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/line-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/line-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/linear-layout-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/linear-layout-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/linear-layout-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/linear-layout-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/list-view-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/list-view-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-item-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-item-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/list-view-item-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/list-view-item-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/loading-spinner-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/loading-spinner-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/loading-spinner-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/loading-spinner-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/model-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/model-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/model-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/model-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/page-view-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/page-view-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/page-view-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/page-view-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/panel-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/panel-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/panel-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/panel-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/portal-icon-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/portal-icon-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/portal-icon-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/portal-icon-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/positional-layout-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/positional-layout-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/positional-layout-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/positional-layout-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/progress-bar-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/progress-bar-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/progress-bar-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/progress-bar-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/quad-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/quad-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/quad-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/quad-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/rect-layout-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/rect-layout-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/rect-layout-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/rect-layout-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/render-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/render-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/render-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/render-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-bar-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-bar-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/scroll-bar-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/scroll-bar-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-view-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-view-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/scroll-view-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/scroll-view-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/slider-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/slider-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/slider-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/slider-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/tab-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/tab-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/tab-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/tab-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/text-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/text-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-container-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-container-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/text-container-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/text-container-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-edit-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-edit-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/text-edit-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/text-edit-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-provider-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-provider-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/time-picker-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/time-picker-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/time-picker-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/time-picker-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/toggle-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/toggle-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/toggle-group-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/toggle-group-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-group-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-group-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/transform-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/transform-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/transform-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/transform-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/ui-node-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/ui-node-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/ui-node-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/ui-node-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/video-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/video-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/video-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/video-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/web-view-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/builders/web-view-builder.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/web-view-builder.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/web-view-builder.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/mxs-list-view-item.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/mxs-list-view-item.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-list-view-item.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-list-view-item.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/mxs-panel.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/mxs-panel.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-panel.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-panel.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/mxs-scroll-bar.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/mxs-scroll-bar.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-scroll-bar.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/mxs-scroll-bar.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/array-property.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/array-property.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/array-property.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/array-property.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/class-property.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/class-property.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/class-property.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/class-property.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/enum-property.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/enum-property.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/enum-property.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/enum-property.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/primitive-type-property.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/primitive-type-property.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/primitive-type-property.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/primitive-type-property.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/property-descriptor.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/property-descriptor.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/property-descriptor.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/property-descriptor.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/text-children-property.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/elements/properties/text-children-property.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/text-children-property.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/properties/text-children-property.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/mxs-landscape-app.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/mxs-landscape-app.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/mxs-landscape-app.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/mxs-landscape-app.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/platform-factory.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/platform-factory.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/platform-factory.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/platform-factory.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/advance-direction.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/advance-direction.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/advance-direction.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/advance-direction.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/alignment.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/alignment.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/alignment.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/alignment.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/audio-action.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/audio-action.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/audio-action.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/audio-action.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/cursor-edge-scroll-mode.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/cursor-edge-scroll-mode.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-edge-scroll-mode.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-edge-scroll-mode.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/cursor-hover-state.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/cursor-hover-state.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-hover-state.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-hover-state.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/date-format.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/date-format.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/dialog-layout.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/dialog-layout.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-layout.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-layout.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/dialog-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/dialog-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/eclipse-button-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/eclipse-button-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-button-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-button-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/eclipse-label-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/eclipse-label-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-label-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-label-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/control-pose-3dof-Input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/control-pose-3dof-Input-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-3dof-Input-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-3dof-Input-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/control-pose-6dof-input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/control-pose-6dof-input-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-6dof-input-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-pose-6dof-input-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/control-touch-pad-input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/control-touch-pad-input-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-touch-pad-input-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/control-touch-pad-input-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/drop-down-list-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/drop-down-list-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/drop-down-list-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/drop-down-list-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/eye-tracking-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/eye-tracking-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/eye-tracking-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/eye-tracking-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/gesture-input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/gesture-input-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/gesture-input-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/gesture-input-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/input-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/input-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/input-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/key-input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/key-input-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/key-input-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/key-input-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/node-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/node-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/node-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/node-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/prism-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/prism-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/prism-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/prism-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/progress-bar-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/progress-bar-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/progress-bar-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/progress-bar-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/scroll-view-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/scroll-view-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ray-cast-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ray-cast-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/selection-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/selection-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/scroll-view-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/scroll-view-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/server-event.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/server-event.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/selection-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/selection-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/slider-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/slider-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/server-event.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/server-event.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/text-edit-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/text-edit-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/slider-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/slider-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/toggle-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/toggle-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/text-edit-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/text-edit-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/transform-node-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/transform-node-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/toggle-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/toggle-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/ui-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/ui-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/transform-node-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/transform-node-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/video-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-data/video-event-data.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ui-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/ui-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-source.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-source.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/video-event-data.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-data/video-event-data.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/event-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-source.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-source.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/flow-direction.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/flow-direction.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/event-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/focus-request.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/focus-request.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/flow-direction.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/flow-direction.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/font-style.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/font-style.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/focus-request.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/focus-request.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/gesture-direction.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/gesture-direction.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/font-style.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/font-style.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/gesture-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/gesture-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-direction.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-direction.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/gravity-well-snap.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/gravity-well-snap.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gesture-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/hand-gesture-keypoint-name.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/hand-gesture-keypoint-name.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gravity-well-snap.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/gravity-well-snap.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/horizontal-text-alignment.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/horizontal-text-alignment.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/hand-gesture-keypoint-name.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/hand-gesture-keypoint-name.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/key-codes.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/key-codes.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/horizontal-text-alignment.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/horizontal-text-alignment.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/label-display-mode.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/label-display-mode.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/key-codes.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/key-codes.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/light-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/light-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/label-display-mode.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/label-display-mode.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/loading-spinner-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/loading-spinner-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/light-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/light-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/orientation.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/orientation.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/loading-spinner-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/loading-spinner-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/panel-cursor-transition-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/panel-cursor-transition-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/orientation.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/orientation.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/panel-edge-constraint-level.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/panel-edge-constraint-level.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-cursor-transition-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-cursor-transition-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/portal-icon-size.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/portal-icon-size.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-edge-constraint-level.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/panel-edge-constraint-level.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/quality.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/quality.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/portal-icon-size.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/portal-icon-size.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/rendering-layer.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/rendering-layer.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/quality.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/quality.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/scroll-bar-visibility.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/scroll-bar-visibility.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ray-cast-event-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ray-cast-event-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/scroll-direction.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/scroll-direction.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/rendering-layer.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/rendering-layer.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/selection-event-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/selection-event-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-bar-visibility.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-bar-visibility.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/shader-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/shader-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-direction.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/scroll-direction.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/side.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/side.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/selection-event-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/selection-event-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/sound-event.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/sound-event.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/shader-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/shader-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/system-icons.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/system-icons.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/side.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/side.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/text-entry-mode.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/text-entry-mode.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/sound-event.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/sound-event.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/texture-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/texture-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/system-icons.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/system-icons.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/time-format.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/time-format.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/text-entry-mode.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/text-entry-mode.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/time-period.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/time-period.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/texture-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/texture-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/toggle-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/toggle-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-format.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-format.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/ui-node-events.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/ui-node-events.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-period.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-period.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/video-action.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/video-action.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/toggle-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/toggle-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/video-event-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/video-event-type.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ui-node-events.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/ui-node-events.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/types/view-mode.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/types/view-mode.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-action.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-action.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/utilities/extractor.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/utilities/extractor.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-event-type.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/video-event-type.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/platform/lumin-runtime/utilities/validator.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/platform/lumin-runtime/utilities/validator.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/view-mode.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/view-mode.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/react-magic-script/magic-script-renderer.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/react-magic-script/magic-script-renderer.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/extractor.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/extractor.js"
  },
  {
-  "dest": "bin/node_modules/magic-script-components/react-magic-script/react-magic-script.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/react-magic-script/react-magic-script.js"
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/validator.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/validator.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-components-lumin/src/react-magic-script/magic-script-renderer.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/react-magic-script/magic-script-renderer.js"
+ },
+ {
+  "dest": "bin/node_modules/magic-script-components-lumin/src/react-magic-script/react-magic-script.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/react-magic-script/react-magic-script.js"
  },
  {
   "dest": "bin/node_modules/magic-script-components/src/components.js",
   "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/components.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/configuration.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/configuration.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/core/native-factory.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/core/native-factory.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/component-mapping.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/component-mapping.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/controllers/app-prism-controller.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/controllers/app-prism-controller.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/controllers/builders/controller-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/controllers/builders/controller-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/controllers/mxs-prism-controller.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/controllers/mxs-prism-controller.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/audio-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/audio-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/button-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/button-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/circle-confirmation-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/circle-confirmation-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/color-picker-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/color-picker-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/date-picker-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/date-picker-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/dialog-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/dialog-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/element-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/element-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/grid-layout-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/grid-layout-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/group-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/group-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/image-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/image-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/layout-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/layout-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/light-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/light-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/line-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/line-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/linear-layout-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/linear-layout-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/list-view-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/list-view-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/list-view-item-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/list-view-item-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/loading-spinner-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/loading-spinner-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/model-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/model-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/page-view-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/page-view-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/panel-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/panel-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/portal-icon-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/portal-icon-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/positional-layout-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/positional-layout-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/progress-bar-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/progress-bar-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/quad-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/quad-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/rect-layout-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/rect-layout-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/render-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/render-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/scroll-bar-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/scroll-bar-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/scroll-view-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/scroll-view-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/slider-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/slider-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/tab-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/tab-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/text-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/text-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/text-container-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/text-container-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/text-edit-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/text-edit-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/time-picker-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/time-picker-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/toggle-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/toggle-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/toggle-group-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/toggle-group-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/transform-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/transform-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/ui-node-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/ui-node-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/video-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/video-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/web-view-builder.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/builders/web-view-builder.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/mxs-list-view-item.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/mxs-list-view-item.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/mxs-panel.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/mxs-panel.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/mxs-scroll-bar.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/mxs-scroll-bar.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/array-property.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/array-property.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/class-property.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/class-property.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/enum-property.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/enum-property.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/primitive-type-property.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/primitive-type-property.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/property-descriptor.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/property-descriptor.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/text-children-property.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/elements/properties/text-children-property.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/mxs-landscape-app.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/mxs-landscape-app.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/platform-factory.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/platform-factory.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/advance-direction.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/advance-direction.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/alignment.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/alignment.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/audio-action.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/audio-action.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/cursor-edge-scroll-mode.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/cursor-edge-scroll-mode.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/cursor-hover-state.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/cursor-hover-state.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/date-format.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/date-format.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/dialog-layout.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/dialog-layout.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/dialog-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/dialog-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/eclipse-button-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/eclipse-button-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/eclipse-label-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/eclipse-label-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/control-pose-3dof-Input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/control-pose-3dof-Input-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/control-pose-6dof-input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/control-pose-6dof-input-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/control-touch-pad-input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/control-touch-pad-input-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/drop-down-list-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/drop-down-list-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/eye-tracking-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/eye-tracking-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/gesture-input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/gesture-input-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/input-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/key-input-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/key-input-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/node-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/node-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/prism-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/prism-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/progress-bar-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/progress-bar-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/ray-cast-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/ray-cast-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/scroll-view-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/scroll-view-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/selection-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/selection-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/server-event.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/server-event.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/slider-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/slider-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/text-edit-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/text-edit-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/toggle-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/toggle-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/transform-node-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/transform-node-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/ui-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/ui-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/video-event-data.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-data/video-event-data.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-source.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-source.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/event-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/flow-direction.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/flow-direction.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/focus-request.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/focus-request.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/font-style.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/font-style.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/gesture-direction.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/gesture-direction.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/gesture-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/gesture-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/gravity-well-snap.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/gravity-well-snap.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/hand-gesture-keypoint-name.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/hand-gesture-keypoint-name.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/horizontal-text-alignment.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/horizontal-text-alignment.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/key-codes.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/key-codes.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/label-display-mode.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/label-display-mode.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/light-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/light-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/loading-spinner-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/loading-spinner-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/orientation.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/orientation.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/panel-cursor-transition-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/panel-cursor-transition-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/panel-edge-constraint-level.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/panel-edge-constraint-level.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/portal-icon-size.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/portal-icon-size.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/quality.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/quality.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/ray-cast-event-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/ray-cast-event-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/rendering-layer.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/rendering-layer.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/scroll-bar-visibility.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/scroll-bar-visibility.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/scroll-direction.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/scroll-direction.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/selection-event-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/selection-event-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/shader-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/shader-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/side.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/side.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/sound-event.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/sound-event.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/system-icons.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/system-icons.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/text-entry-mode.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/text-entry-mode.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/texture-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/texture-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/time-format.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/time-format.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/time-period.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/time-period.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/toggle-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/toggle-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/ui-node-events.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/ui-node-events.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/video-action.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/video-action.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/video-event-type.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/video-event-type.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/view-mode.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/types/view-mode.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/utilities/extractor.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/utilities/extractor.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/platform/lumin-runtime/utilities/validator.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/platform/lumin-runtime/utilities/validator.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/react-magic-script/magic-script-renderer.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/react-magic-script/magic-script-renderer.js"
- },
- {
-  "dest": "bin/node_modules/magic-script-components/src/react-magic-script/react-magic-script.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/react-magic-script/react-magic-script.js"
  },
  {
   "dest": "bin/node_modules/magic-script-polyfills/src/assert.js",
@@ -1402,10 +882,6 @@
  {
   "dest": "bin/src/components/timePicker.js",
   "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/timePicker.js"
- },
- {
-  "dest": "bin/src/components/toggle.js",
-  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/toggle.js"
  },
  {
   "dest": "bin/src/components/toggleGroup.js",
