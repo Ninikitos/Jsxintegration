@@ -2,6 +2,9 @@ import React from 'react';
 import { View, Text, CircleConfirmation, Dialog } from 'magic-script-components';
 
 class CircleConfirmationComp extends React.Component {
+  state = {
+    isCircleComplete : false
+  };
 
   onConfirmationCanceled = (event) => {
     print("onConfirmationCanceled");
@@ -18,20 +21,39 @@ class CircleConfirmationComp extends React.Component {
     print("onConfirmationComplete");
     this.setState(state => {
       return {
-
+        isCircleComplete : true
       };
     });
   }
 
   onDialogCancel = (event) => {
-    print("onDialogCancel");
+    console.log("onDialogCancel");
   }
 
   onDialogConfirm = (event) => {
-    print("onDialogConfirm");
+    console.log("onDialogConfirm");
   }
 
   render () {
+    print("render");
+    let dialog;
+    if (this.state.isCircleComplete) {
+      print("isCircleComplete = true")
+      dialog = (
+        <Dialog
+            buttonType="text-with-icon"
+            dialogType="dual-action"
+            dialogLayout="wide"
+            cancelIcon="thumbs-up"
+            cancelText="Cancel"
+            confirmIcon="check"
+            confirmText="Confirm"
+            title="This is title"
+            text="This is text"
+            onCancel={this.onDialogCancel}
+            onConfirm={this.onDialogConfirm}
+        />);
+    }
     return (
       <View>
         <Text localPosition={[-0.32, 0.3, 0]} textSize={0.04}>This is a circleConfirmation Component</Text>
@@ -41,19 +63,7 @@ class CircleConfirmationComp extends React.Component {
           onConfirmationUpdate={this.onConfirmationUpdate}
           height={0.2}
         ></CircleConfirmation>
-        <Dialog
-          buttonType="text-with-icon"
-          dialogType="dual-action"
-          dialogLayout="wide"
-          cancelIcon="thumbs-up"
-          cancelText="Cancel"
-          confirmIcon="check"
-          confirmText="Confirm"
-          title="This is title"
-          text="This is text"
-          onCancel={this.onDialogCancel}
-          onConfirm={this.onDialogConfirm}
-        ></Dialog>
+        {dialog}
       </View>
     );
   }

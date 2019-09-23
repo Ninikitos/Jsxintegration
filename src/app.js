@@ -90,7 +90,7 @@ export default class App extends React.Component {
       index: state.index > 0 ? state.index - 1 : 0
     }));
   }
-  // onCurrentClick = (event) => {}
+  
   onNextClick = (event) => {
     print('onNextClick');
     const maxIndex = this.components.length - 1;

@@ -114,9 +114,9 @@
   },
   {
    "compression": 8,
-   "hash": "d5394ebeece0e573fd88508e3c65ad9b2fbaae88",
+   "hash": "294306bdd4504072ec9213f7675a7490ff3d29d6",
    "pkgpath": "bin/bundle.js",
-   "size": 32858,
+   "size": 33114,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/bundle.js"
   },
   {
@@ -1346,9 +1346,9 @@
   },
   {
    "compression": 8,
-   "hash": "dcc3324f2281dd97735ca57030768ad56188df90",
+   "hash": "cfa12043ec7ef26e7b4b7e1c4b13114caf873171",
    "pkgpath": "bin/src/components/circleConfirmation.js",
-   "size": 1861,
+   "size": 2099,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/circleConfirmation.js"
   },
   {
@@ -1591,9 +1591,9 @@
   },
   {
    "compression": 8,
-   "hash": "ec09b265bf0c7426f7efa2955cd851e19bc33525",
+   "hash": "a37a63423f432b13f1252f807c013a4fbf1025a9",
    "pkgpath": "./digest.sha512.signed",
-   "size": 48222,
+   "size": 48273,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/digest.sha512.signed"
   },
   {
@@ -1674,23 +1674,23 @@
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration\\manifest.xml",
    "xfrm_flags": {
     "manifest": {
-     "cert_hash": "2e3ca398ab9ae604f77bd093d88da657221814f3",
-     "developer_id": "Magic Leap Internal",
+     "cert_hash": "9507513764e5c030611ff611ddfb864284d551f6",
+     "developer_id": "289c7e18-10c0-4a7b-b1f1-344335fe1586",
      "min_api_level": "2"
     }
    },
-   "xfrm_hash": "f5fdf51cf8520960b647f19b7f0ca4b90fc7bf9d",
+   "xfrm_hash": "6f5e4fc33614c05c8f42269cf6c3bab47c36fb11",
    "xfrm_path": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/.out/app/debug_lumin_clang-3.8_aarch64\\manifest.xml-7af23b0d2fb7bf07",
-   "xfrm_size": 549
+   "xfrm_size": 566
   }
  ],
  "pkgflags": {
   "signed": {
-   "cert": "C:\\Users\\nilin\\Desktop\\mlsdk_main\\internal\\ml_internal.cert"
+   "cert": "C:\\Users\\nilin\\Desktop\\prod_cert\\prod.cert"
   },
   "taildata": {
    "debuggable": true,
-   "devcert": "C:\\Users\\nilin\\Desktop\\mlsdk_main\\internal\\ml_internal.cert",
+   "devcert": "C:\\Users\\nilin\\Desktop\\prod_cert\\prod.cert",
    "sbox": "USER",
    "version": 3
   }

@@ -6,6 +6,10 @@ class CircleConfirmationComp extends React.Component {
   constructor(...args) {
     super(...args);
 
+    _defineProperty(this, "state", {
+      isCircleComplete: false
+    });
+
     _defineProperty(this, "onConfirmationCanceled", event => {
       print("onConfirmationCanceled");
       this.setState(state => ({}));
@@ -18,20 +22,28 @@ class CircleConfirmationComp extends React.Component {
     _defineProperty(this, "onConfirmationComplete", event => {
       print("onConfirmationComplete");
       this.setState(state => {
-        return {};
+        return {
+          isCircleComplete: true
+        };
       });
     });
 
     _defineProperty(this, "onDialogCancel", event => {
-      print("onDialogCancel");
+      console.log("onDialogCancel");
     });
 
     _defineProperty(this, "onDialogConfirm", event => {
-      print("onDialogConfirm");
+      console.log("onDialogConfirm");
     });
   }
 
   render() {
+    print("render");
+
+    if (this.state.isCircleComplete) {
+      print("isCircleComplete = true");
+    }
+
     return React.createElement(View, null, React.createElement(Text, {
       localPosition: [-0.32, 0.3, 0],
       textSize: 0.04

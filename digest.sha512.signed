@@ -15,7 +15,7 @@ cc8107d363e4d3a271d6bcd4b0032c5d8b6b6c7b6bfa3a4a105924fc418c3e1d4f4473978669612c
 f0f57dcf8128194c2d9496f3ab64667dcc9eba013e55c815e4ec2f204664f7567bff09e1e61ab5939d099dac45002ce5ecd33f3df3fdfe587c310523bf68c894  bin/_virtual/scheduler.development.js
 ec1e67e8f349cedef600ab4d404c0bda49c0c298a929d1fb730fdc209d28997437c2e3a4d4bb5446d1f065a1d6af9ebc51a7a0a7d0da5c60565431a595045aac  bin/_virtual/scheduler.production.min.js
 9ee08bfe7e9564b0eeae3e6c4d9d974d3e930b012f091f409b1d165065a7bda627aab42135a55756cdf5bbedc40fcf014d4e653064a7a1cc5f564b0454ffeee4  bin/_virtual/tracing.js
-e6688928cdc711fbb5fb00c0f0ccc4a1be06ace6eb291721717c179afcb819467a4d89a1a68851febc601d650adeab95770cdc39c1cb1fe2522afb367dbb9585  bin/bundle.js
+9a6958e5d5b1107944f344d5d597e5ff87c780fbe32c2fc6e9a2165634b3d89e4f6b06bf1b76b21ab77a63607c49f84c83009d1391854c90558bf3dad27c6d7b  bin/bundle.js
 bb2b7b516c7370bc1db88055185cc09b88e335d5a6e8d015d11dbddc4cfcb4f24406ac349e22afbab7489ef9da6b03b278025335e6ecafe374f3b8134083f41d  bin/index.js
 1fd6b3fdd90737da2f5a2f2ceacf71fbe802a607758db122a1677212417a8414d63a50d15898118e1828f8f272aa0e9f1ccf4b90f146d51819aa4dcfbf7ee648  bin/node_modules/magic-script-components-lumin/index.js
 ec20e62b131680995a894c97bbde3adf56fcd72a04793a1a758b8a1baa24d9471d30a5c4a339e2d7e80d64f0f0488beb5f7bc8ff1705a120bb55f0cbe4282af9  bin/node_modules/magic-script-components-lumin/src/configuration.js
@@ -191,7 +191,7 @@ e5f23c82b178e60f2c11719db2e6e551223b7016ac0265ecd98a9d9ec6258e755f400295d4516cd6
 003eae0ad9b6a3f00986fee1da73e06cd62411bda3cd475c8d4264f98b1ee879d1c3954392e3399a53fa001c27f399e0078a8468b5cc432afed67392fd093d0f  bin/src/app.js
 48500131996a2f20bc3478a2213df879abe51a7cab984e103b0f168319e1f69601915b51c799e91a353da5269126c12ad56a9085ec5fbf91941d1513b8cb7edf  bin/src/components/audio.js
 7f6936a9a724f52394f91611a4440a8c0e43edfad260410fb84804b0d7f88780e56d5cf78d62e4eb8a1db5120fe332781a09b1d6d51b4ba490521cce16aa852f  bin/src/components/button.js
-ed9d201a46c570d3b3b85d2a13a0092766fc01156ddc4d02bc1a785f7c93a8c710401da9a55e34a7babec61140144cd37af42315ee6554cca93240db015ae45d  bin/src/components/circleConfirmation.js
+6720e29bcd1fdaa7053d6fe727e4e2492ea770205481b6f4a6d5e41ac6462c44842ba2c8dc7c3e62c457b9df8bc3d6f57ab1a9db02f0d777d4e9702f4beb3da6  bin/src/components/circleConfirmation.js
 3dfb67eb8fd8604452548f8802555e2fd0c799be1a914cd86ad5fc78e9a3bd8849094f792e55d8c17c701448cca2a5bbb08669b02ea2ebfad950a6913044f8b7  bin/src/components/colorPicker.js
 acc26d0e306ecc8b09228dd63f3634e23527c8bbdf4756889df476b0efb2274e8c797bac1c4e4745a69b8aa6529bf21df53a46ff263c6179fe8df6ce53417b13  bin/src/components/content.js
 9738195e7972770c721280f9f78859874c7c626b58dfb7657a218aad06bee2a047ef9ff93ba0a066a72d0ca01730942d480b6eaa5222db92b8cb8992bb844e56  bin/src/components/datePicker.js
@@ -226,8 +226,8 @@ cf53217e92a5ac4cb2d32c37d894136c5801d660ba6a2addc81698e17fd7cb87583f098bf77d1d95
 00ecd7eda9208a6635d2b301ddaf10251ee1cb405e29741241de3dd3787da92126be5cf2bf43ab0bdb220a079fc7de40dc117d2a75baf1015150414cebd85d51  bin/src/components/webview.js
 ccb59cc4eeb3f4348629a430aded2500d6779cdd3b699c9de853eb3931da970afebdd9bcb2c4c2c737cc8c26ff5c963a0cd19777302812d33e4173d310e340a1  bin/src/global-scope.js
 378e3eaa45d9d84d494fc5fe5e6d414a4a4bae3da17de4f8a8c066bec55d766ddb3289356d2fde37976916eeb50de1c42a30a1a7a80de9f982b0a97ff3e2c6c5  bin/src/main.js
-#     USER                                                                       TAILDATA0‚>	*†H†÷ ‚/0‚+10	`†He0	*†H†÷1‚0‚0_0R10	UUS10UFlorida10U
-
-Magic Leap10UMagic Leap Internal	 ˆö‚*Ù’‡0	`†He0	*†H†÷ ‚€l£úGsÔìP™à¯WDPE
-‚Ù×‘nâ]‘7ĞÑ©OŞIòš]V‚ßâ¦É3–¨M­ÂFæ¸"äşßLc:ÍÂ(d¢wKÓâşKUŒc¬¶Ş×YT ›CApıƒÆ0wÆ´­Õc5Pİj.€¥šúÖ, Ri¡”=É5G z/v…!Fmt‘àXV¢™M:X„x7´›$ äİ¦¿»"ÛÅlš¾®Œ¡2,±rgt³vã¡–¬Şô{p}½-'¯MƒóCêöƒøÊ‘<0ŠíË§§òH(ˆÃ­JÛoxç©$Z…&¥ÒYqËq•<2Ã¿Ô½İ©‹–Œ&Ÿã Õƒ˜ŞÁ„ĞĞ øvCû’SMc¡Ó‹ëÊ jWã
-‰šõÌ¾aI	‘ ¢Sƒªù³øÑˆ`-S´wÀÙÁÉĞª $ŞTŠœN>İÅU ô=t9:§©fju™rAòÊ¾«â8,'WhŞr¬D¹°ßläVç         B~Module signature appended~
+#     USER                                                                       TAILDATA0‚q	*†H†÷ ‚b0‚^10	`†He0	*†H†÷1‚;0‚70‘0„10	UUS10UFlorida10U
+Plantation10U
+
+Magic Leap10UExternal Developer10UMagic Leap Root Dev°¦HSŞ1?0	`†He0	*†H†÷ ‚€*7åìGWï$0LL‹‡â¾öCÃ\°òvéc$¼Ú rvjïK†˜4êÿrclí3&dL?ı–ä½®Qß_äµ)bÇ±ê˜]Y(bˆ:¡jyGâ‹À~"½Ü'{L ”Éêoá]iŞ“¹Ç©#‚N½‹´ãškRÔ8r[ïH¹û`%£ùTK.l/ñú p	³8|aDpÔ@û-Ù„¤wòÏô¾çØbÌå¦ÈÃaó7îX”c«¨s–K3Üä(3*°mÒW{À±˜#CÆY¸Š¾Ä€fSİ9W0ÎU‡~ÿ1L~™ˆX Ù‘Æ¼êpóıyïw¤¸,ñ0"*3tWeºŒ…œûø<ò+F…“<~uÀÏH£w‰ˆN
+„jætïhy“sÇ´fy†…^DåmÏ{«úÈ†*ú:R×»…ZvÙÙ.ır™i–­A@ËÒª´†Fû+‰­q®<St“ábBú_#~“”òF”1ÛNrÂú“         u~Module signature appended~
