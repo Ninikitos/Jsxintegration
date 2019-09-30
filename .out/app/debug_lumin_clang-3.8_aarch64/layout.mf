@@ -592,6 +592,10 @@
   "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/view-mode.js"
  },
  {
+  "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/web-view-action.js",
+  "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/web-view-action.js"
+ },
+ {
   "dest": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/extractor.js",
   "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/extractor.js"
  },

@@ -1,6 +1,6 @@
 import React from '../../node_modules/react/index.js';
 import { defineProperty as _defineProperty } from '../../_virtual/_rollupPluginBabelHelpers.js';
-import { View, Text, CircleConfirmation, Dialog } from '../../node_modules/magic-script-components/src/components.js';
+import { Dialog, View, Text, CircleConfirmation } from '../../node_modules/magic-script-components/src/components.js';
 
 class CircleConfirmationComp extends React.Component {
   constructor(...args) {
@@ -39,9 +39,23 @@ class CircleConfirmationComp extends React.Component {
 
   render() {
     print("render");
+    let dialog;
 
     if (this.state.isCircleComplete) {
       print("isCircleComplete = true");
+      dialog = React.createElement(Dialog, {
+        buttonType: "text-with-icon",
+        dialogType: "dual-action",
+        dialogLayout: "wide",
+        cancelIcon: "thumbs-up",
+        cancelText: "Cancel",
+        confirmIcon: "check",
+        confirmText: "Confirm",
+        title: "This is title",
+        text: "This is text",
+        onCancel: this.onDialogCancel,
+        onConfirm: this.onDialogConfirm
+      });
     }
 
     return React.createElement(View, null, React.createElement(Text, {
@@ -52,19 +66,7 @@ class CircleConfirmationComp extends React.Component {
       onConfirmationComplete: this.onConfirmationComplete,
       onConfirmationUpdate: this.onConfirmationUpdate,
       height: 0.2
-    }), React.createElement(Dialog, {
-      buttonType: "text-with-icon",
-      dialogType: "dual-action",
-      dialogLayout: "wide",
-      cancelIcon: "thumbs-up",
-      cancelText: "Cancel",
-      confirmIcon: "check",
-      confirmText: "Confirm",
-      title: "This is title",
-      text: "This is text",
-      onCancel: this.onDialogCancel,
-      onConfirm: this.onDialogConfirm
-    }));
+    }), dialog);
   }
 
 }
