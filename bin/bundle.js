@@ -72,9 +72,24 @@ var _ = (function (React) {
       return React.createElement('dialog', props);
   }
 
+  function ColorPicker (props) {
+      // return (<colorPicker {...props} />);
+      return React.createElement('colorPicker', props);
+  }
+
+  function DatePicker (props) {
+      // return (<datePicker {...props} />);
+      return React.createElement('datePicker', props);
+  }
+
   function CircleConfirmation (props) {
       // return (<circleConfirmation {...props} />);
       return React.createElement('circleConfirmation', props);
+  }
+
+  function Content (props) {
+      // return (<content {...props} />);
+      return React.createElement('content', props);
   }
 
   class TextComp extends React.Component {
@@ -379,11 +394,9 @@ var _ = (function (React) {
       }, "Button + Icon + Text"), React.createElement(Button, {
         localPosition: [0.7, 0.1, 0],
         type: "text-with-icon",
-        text: "Click Me",
-        labelSide: "right",
         height: 0.1,
         iconType: "exit"
-      }));
+      }, "Click Me"));
     }
 
   }
@@ -431,6 +444,10 @@ var _ = (function (React) {
       _defineProperty(this, "onDialogConfirm", event => {
         console.log("onDialogConfirm");
       });
+
+      _defineProperty(this, "onTimeExpired", event => {
+        console.log('onTimeExpired');
+      });
     }
 
     render() {
@@ -440,17 +457,12 @@ var _ = (function (React) {
       if (this.state.isCircleComplete) {
         print("isCircleComplete = true");
         dialog = React.createElement(Dialog, {
-          buttonType: "text-with-icon",
-          dialogType: "dual-action",
-          dialogLayout: "wide",
-          cancelIcon: "thumbs-up",
-          cancelText: "Cancel",
-          confirmIcon: "check",
-          confirmText: "Confirm",
-          title: "This is title",
-          text: "This is text",
-          onCancel: this.onDialogCancel,
-          onConfirm: this.onDialogConfirm
+          title: "Successfully completed confirmation",
+          text: "Your device is ready for a new Mixed Reality seccion",
+          type: "timed",
+          expireTime: 0.1,
+          layout: "standard",
+          scrolling: false
         });
       }
 
@@ -472,17 +484,37 @@ var _ = (function (React) {
       return React.createElement(View, null, React.createElement(Text, {
         localPosition: [-0.2, 0.3, 0],
         textSize: 0.04
-      }, "This is a colorPicker Component"));
+      }, "This is a colorPicker Component"), React.createElement(ColorPicker, {
+        height: 0.6,
+        color: [0.339, 0.123, 0.991, 1]
+      }));
     }
 
   }
 
   class ContentComp extends React.Component {
     render() {
-      return React.createElement(View, null, React.createElement(Text, {
-        localPosition: [-0.2, 0.3, 0],
-        textSize: 0.04
-      }, "This is a content Component"));
+      return React.createElement(View, null, React.createElement(ScrollView, {
+        scrollBarVisibility: "always"
+      }, React.createElement(ScrollBar, {
+        width: 0.3,
+        height: 0.6,
+        thumbSize: 0.03,
+        thumbPosition: 0,
+        orientation: "vertical"
+      }), React.createElement(Content, null, React.createElement(Text, {
+        localPosition: [0, 0.4, 0],
+        textSize: 0.03
+      }, "Message Box1"), React.createElement(Text, {
+        localPosition: [0, 0.3, 0],
+        textSize: 0.03
+      }, "Message Box2"), React.createElement(Text, {
+        localPosition: [0, 0.2, 0],
+        textSize: 0.03
+      }, "Message Box3"), React.createElement(Text, {
+        localPosition: [0, 0.1, 0],
+        textSize: 0.03
+      }, "Message Box4"))));
     }
 
   }
@@ -492,7 +524,17 @@ var _ = (function (React) {
       return React.createElement(View, null, React.createElement(Text, {
         localPosition: [-0.2, 0.3, 0],
         textSize: 0.04
-      }, "This is a DatePicker Component"));
+      }, "This is a DatePicker Component"), React.createElement(DatePicker, {
+        label: "This is label",
+        labelSide: "left",
+        defaultDate: "03/21/1990",
+        dateFormat: "MM/DD/YYYY",
+        color: [0.23, 0.13, 0.98, 1],
+        height: 0.5,
+        yearMin: 1990,
+        yearMax: 2020,
+        localScale: [2, 2, 0]
+      }));
     }
 
   }
@@ -502,7 +544,14 @@ var _ = (function (React) {
       return React.createElement(View, null, React.createElement(Text, {
         localPosition: [-0.2, 0.3, 0],
         textSize: 0.04
-      }, "This is a Dialog Component"));
+      }, "This is a Dialog Component"), React.createElement(Dialog, {
+        title: "Successfully completed confirmation",
+        text: "Your device is ready for a new Mixed Reality seccion",
+        type: "timed",
+        expireTime: 0.1,
+        layout: "standard",
+        scrolling: false
+      }));
     }
 
   }
@@ -512,7 +561,11 @@ var _ = (function (React) {
       return React.createElement(View, null, React.createElement(Text, {
         localPosition: [-0.2, 0.3, 0],
         textSize: 0.04
-      }, "This is a DropDownList Component"));
+      }, "This is a DropDownList Component"), React.createElement(DropdownList, {
+        text: "Dropdown"
+      }), React.createElement(DropdownListItem, {
+        label: "Item"
+      }));
     }
 
   }

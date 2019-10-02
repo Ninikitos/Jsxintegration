@@ -6,7 +6,11 @@ class DropDownListComp extends React.Component {
     return React.createElement(View, null, React.createElement(Text, {
       localPosition: [-0.2, 0.3, 0],
       textSize: 0.04
-    }, "This is a DropDownList Component"));
+    }, "This is a DropDownList Component"), React.createElement(DropdownList, {
+      text: "Dropdown"
+    }), React.createElement(DropdownListItem, {
+      label: "Item"
+    }));
   }
 
 }

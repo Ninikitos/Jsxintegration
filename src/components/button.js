@@ -32,7 +32,7 @@ class ButtonComp extends React.Component {
         <Button localPosition={[0.6, 0.4, 0]} iconType="thumbs-up" type="icon" height={0.1}></Button>
         {/* EclipseButtonParams(type, iconPath, text, labelSide, height, iconType) */}
         <Text localPosition={[0.5, 0.2, 0]} textSize={0.03}>Button + Icon + Text</Text>
-        <Button localPosition={[0.7, 0.1, 0]} type="text-with-icon" text="Click Me" labelSide ="right" height={0.1} iconType="exit" ></Button>
+        <Button localPosition={[0.7, 0.1, 0]} type="text-with-icon" height={0.1} iconType="exit" >Click Me</Button>
 
       </View>
     );

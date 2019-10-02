@@ -72,11 +72,9 @@ class ButtonComp extends React.Component {
     }, "Button + Icon + Text"), React.createElement(Button, {
       localPosition: [0.7, 0.1, 0],
       type: "text-with-icon",
-      text: "Click Me",
-      labelSide: "right",
       height: 0.1,
       iconType: "exit"
-    }));
+    }, "Click Me"));
   }
 
 }

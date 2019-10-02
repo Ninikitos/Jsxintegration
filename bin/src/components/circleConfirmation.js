@@ -35,6 +35,10 @@ class CircleConfirmationComp extends React.Component {
     _defineProperty(this, "onDialogConfirm", event => {
       console.log("onDialogConfirm");
     });
+
+    _defineProperty(this, "onTimeExpired", event => {
+      console.log('onTimeExpired');
+    });
   }
 
   render() {
@@ -44,17 +48,12 @@ class CircleConfirmationComp extends React.Component {
     if (this.state.isCircleComplete) {
       print("isCircleComplete = true");
       dialog = React.createElement(Dialog, {
-        buttonType: "text-with-icon",
-        dialogType: "dual-action",
-        dialogLayout: "wide",
-        cancelIcon: "thumbs-up",
-        cancelText: "Cancel",
-        confirmIcon: "check",
-        confirmText: "Confirm",
-        title: "This is title",
-        text: "This is text",
-        onCancel: this.onDialogCancel,
-        onConfirm: this.onDialogConfirm
+        title: "Successfully completed confirmation",
+        text: "Your device is ready for a new Mixed Reality seccion",
+        type: "timed",
+        expireTime: 0.1,
+        layout: "standard",
+        scrolling: false
       });
     }
 

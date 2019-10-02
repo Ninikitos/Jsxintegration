@@ -15,7 +15,7 @@ cc8107d363e4d3a271d6bcd4b0032c5d8b6b6c7b6bfa3a4a105924fc418c3e1d4f4473978669612c
 f0f57dcf8128194c2d9496f3ab64667dcc9eba013e55c815e4ec2f204664f7567bff09e1e61ab5939d099dac45002ce5ecd33f3df3fdfe587c310523bf68c894  bin/_virtual/scheduler.development.js
 ec1e67e8f349cedef600ab4d404c0bda49c0c298a929d1fb730fdc209d28997437c2e3a4d4bb5446d1f065a1d6af9ebc51a7a0a7d0da5c60565431a595045aac  bin/_virtual/scheduler.production.min.js
 9ee08bfe7e9564b0eeae3e6c4d9d974d3e930b012f091f409b1d165065a7bda627aab42135a55756cdf5bbedc40fcf014d4e653064a7a1cc5f564b0454ffeee4  bin/_virtual/tracing.js
-2ba49efd6f07bdf4c65f94091fe96e6c3fa270901d288e859e2038efe09af786e4ec7d150c10452a75792bea773a0a473e53fb29383c28dc9ac8cc11689ac3b1  bin/bundle.js
+45aaab5efe483ea2771f534cf08a2d500f32682b1adaf1191e2a31b40c54e96cdfdcdeb384393ee3e5c81eec67dca02003641ec1cac8dbf0d9d51b0a1680d11a  bin/bundle.js
 bb2b7b516c7370bc1db88055185cc09b88e335d5a6e8d015d11dbddc4cfcb4f24406ac349e22afbab7489ef9da6b03b278025335e6ecafe374f3b8134083f41d  bin/index.js
 73baf20e46939924f70d668c769896be6bb1f80981f2a899061d53911b092ca8a58452dbfd780177401ee83ef25b1c5f76827f057665993d27533aadfa4aeeb4  bin/node_modules/magic-script-components-lumin/index.js
 bc6b18035eb769d572f71177a24c569fbfc3919fd828a0e14b5bccf8e4698ee34a8b66474affe93ba4de9e004ceb7b7b8393768781d5bdc5a57298e247d8f7f6  bin/node_modules/magic-script-components-lumin/src/configuration.js
@@ -28,7 +28,7 @@ c15f32d0b95e2485a3e9d5f1b18e08822ca8209ceb97ca005578c99a831d4b208b537994de0b23e2
 e855be1b38c06ff88bd2e24248da985c3260a3f3010b55fcfa24ba243b1a6520dd0ee674ba53eae0f9f73cbead45eabf29664201dfe2a0fc2160e6213b6df85e  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/button-builder.js
 1abb57a2e88cf8559d9ff52b5ada56cd88da01249157d399ea8b6350d612d8053d01f97f7b6da215cb84654f8dbbded48f22bd5372d1c37f8bb8b0b3047d7c8f  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/circle-confirmation-builder.js
 832c5b4daff9344c54863476ec3330a54b3c97894ab4858e731b46190361a30945a19b399164bb0d4c509c6f98dfb666bdb6754e9c35509e01d7424e54ac9c33  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/color-picker-builder.js
-3f4f273fb0e66916b57bc98ddf0ef13edd6a13bb4987125f7eccab71c65423255a1637984f9a0b82e09f289e95c3b2f5c3d1294b2d3ca8014753085c9d72a586  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js
+cbdf0395f1e917e4e0e4095a226839c5387dedf0a280ca2146034cdf25dd31b01341ed785a3ba57c37aa3e7ac0ed6706a717b4e9304842aa023cba108312f325  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js
 29e5cfe7a16d2a0bc658bb7b69b2fc8fbe79de8d8254e1de1d1dcfaa0f5d955f7f7c123845c151bb2796117d23761c0571fd177b280b4bd6b88ddcf3a6f84cec  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dialog-builder.js
 97b766db26235e690c8083cb69d7ea4a76a3694341b1a24a5088aa97b243567dca8219a715cd3d97901da1bb151037c2fa97599794920c519eb300e7cf8ee735  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js
 00d24c2b8d3b9737f986411a7f8aafbe156b08d9dbe7210be087c99e581ad1d198cdb34abbc194a8af1e08215cd121cad87a5a3a628916fd417f481e99473138  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js
@@ -60,7 +60,7 @@ ebc04f1c9b2b3b125615d573223acd9e32b06756ac1c29b90960595116b1e009ac85175546cac068
 ee7e7c6877a57c46b5d63c8832350bf09d17e28c065f3ce0ebb21d7e21f2d5bc27d6496ad016e8ec222d017735aaaa58323037af3b187a3a117884b599ceccc6  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-container-builder.js
 a0deea410c0c959b54f5d6f90b42a87aad24e909c3877f24da61e7f6053f3e4bfcd08d088fe081793e3f17f81a05c7c0ac6c24524a2f220cba5c831ce8cb9b04  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-edit-builder.js
 8416f6c0d83d120d40e0f9dcc2fb640676a96f799b35ec2430e3e120cf2c3ff663fe05fd51882e8551ae59a4a8e39729f203e22a4fb7a9c115fb0749b405af29  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-provider-builder.js
-fb6577a56e1b34c4f964943ea24242f599aca52e6f52a7138af8bd530764f5098ef9ee8e0d4f8768cd61d27b4e8122af55b1b9790cf53de3c21453d8aee39849  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/time-picker-builder.js
+86849ba4b1ccc7ef5b17221aa75ebee2cab6328de6c5b9c8c55b7828838103e9361cc93a5419584330105f7f707897f8d89c2736712fcf0495b7c79fcba2a9e1  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/time-picker-builder.js
 18d3108121876f33bb748d0a9b6ad5a7365a3185c6591a985382734dd489c11d344675c74435b7d0a53936ca16647c6441c73d97f21c962f0c5a8d5a7140eb10  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-builder.js
 d3980223815da0082b93871189de08820a3956432ba13878e84107c9bf3af9ef43ad09833332cb55c6f97b241e9f772dd82fb372dbf8377d386ea9758bc0355d  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/toggle-group-builder.js
 bf98fa15e65815f18d06ea13d170a5d1d83ee9dd9139b7dc8afbb4fa14c0fb74c53173e51e0a61f15b654f1933be7e607aa76fe2e769fea2f036953bcc11119c  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/transform-builder.js
@@ -83,7 +83,7 @@ b9db2161c72355fdf1423793d376822ab0be563eaccbd2c59a012df8cc6c534dc9090943b24c6f5a
 6a60b71a4ed7aac87ccbdda683833df681a52a033c0df6927d9da3237f2b7c4152bce1b280a8fa9bae7aa4cff032b916d4c4b0cec01796621cc287b192bc416c  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/audio-action.js
 6dae913483a851b3fd1bcc68014430ce0fa73fb1153991d834d23059ab727e961caef16c1faebb0938df8fb034daa23d2460143f0d330ae8a9647db2efaaa9d9  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-edge-scroll-mode.js
 bc8eaacc8996c872e4d2c27303fabdb306e9afa634f8445d3382fe10d14f375225c508f6c9920f51b767da519c436c39fbf3290e07d133956cf0da2be993bbf6  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/cursor-hover-state.js
-67384d95f609dd3fa5dbd61ad2ecb1ee28d494180e641d63da185efeacc955301f6e3998322a809f74263ec56f1f160e39575ce749a5a4255bfa5208a4f994ae  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js
+ed4eb4a14f6aec22ded53609cc9c21a025b28169e32be285257b3ca91aa8af1409a08b8a9cb11d7156893af9741f58578334d74359de21236028cd6951ecf255  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js
 9e934c782810e087ceba082facb06e8fb549fad3024b5830438c14f43da0229dfabb31cf2a4141d1d0fd78b7f97cab3343c3d15548ec1d6373ad092a835a715c  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-layout.js
 e15ae19566ffab589474f2d17d93a2b709f2080485c3a6f8b7427112bd61ae7d993445d8af9b7d745aa50290cbb6280c72020ea5c692cffc1d1011bfdfc66b1c  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/dialog-type.js
 118ff1733316f86ecba8e63d749d2962d4e526e68b6524d9b919af13371f05c2aa44f9fd49658740651dee980df2603225d2e75d68b8e751c517dee07cae8331  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/eclipse-button-type.js
@@ -152,7 +152,7 @@ c221a9244fa1cf8a112cd7842517f0f2d02df65831de53878ed3168e82699700036fddacc28c7f12
 ef28048cb4d53de812ea4d75ecc9d4abc7b95629649396ac04323256f3150cfecbda98f1f32250c470520b7317d1b00e3e2a1655d9a0067e61ca6a7f1c209249  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/validator.js
 c17c8185b65fa35096e7d36069804fc76c7ea4105d4a70b69a2d41cf00dcf76a53acc2cf441986c99500862b1efe85c4c29e360d653f81c05396a2181641d1a2  bin/node_modules/magic-script-components-lumin/src/react-magic-script/magic-script-renderer.js
 f209e6b3b225559047fa0bef58291a51232a267e74f8ad7161bb560d731c3e9b7097d5cb333b179eccb6438fbb23690139cad47b0d6fb833a143b448add39429  bin/node_modules/magic-script-components-lumin/src/react-magic-script/react-magic-script.js
-ab8d0ae3307f7ab159b7de44301c25d63f917ff3b89e256f1407a80690281b07c2ba1c2dfd11bccdb52ca67d9cadd12a4d0f9f7ddc52296867ba3e79c9cd534b  bin/node_modules/magic-script-components/src/components.js
+08e366d6afb6f4a3a10a664d0d1af95721326186ef9cb327a4de68edd5c62eece7b0a0dd0457760511f6a75ce44e6af48545be185744f00d1ff3936e0ee82f23  bin/node_modules/magic-script-components/src/components.js
 17baa00053d45408bcbdc54ee5e91d8a76f6fccdc98c70b44f2f0def57ad15866e29b5dd194ea5076afe4aeb2c5eb7232b35fe0474cf51cff8b586e657f11a3b  bin/node_modules/magic-script-polyfills/src/assert.js
 6ef830dd43ed0f2ac8962e09f39fea1f3bc13a5e7940638734e515f22a8fc9f6c2674137f63b37fd1a3e06c6918913a6282fc701c779fe1baac5ea1b22b37642  bin/node_modules/magic-script-polyfills/src/bintools.js
 b1d4354b082c378e97b831e9f9ad4e14a58c38d08842906f089805f3406da45d527d1e9734ca2dff7a5e41fa62123f3a3f36e7cfd5bfa90ff99b027bb599e3cb  bin/node_modules/magic-script-polyfills/src/codec-wrap.js
@@ -191,13 +191,13 @@ b9bc2de68e60a27f0b9e0e20c85a532c4965b69d9170066d6e27a16ff094c1184c32c8419a4f4bf3
 e5f23c82b178e60f2c11719db2e6e551223b7016ac0265ecd98a9d9ec6258e755f400295d4516cd66cb06f0c139607ea44a44e9bd24829585ffc3c703a627719  bin/node_modules/scheduler/tracing.js
 003eae0ad9b6a3f00986fee1da73e06cd62411bda3cd475c8d4264f98b1ee879d1c3954392e3399a53fa001c27f399e0078a8468b5cc432afed67392fd093d0f  bin/src/app.js
 48500131996a2f20bc3478a2213df879abe51a7cab984e103b0f168319e1f69601915b51c799e91a353da5269126c12ad56a9085ec5fbf91941d1513b8cb7edf  bin/src/components/audio.js
-7f6936a9a724f52394f91611a4440a8c0e43edfad260410fb84804b0d7f88780e56d5cf78d62e4eb8a1db5120fe332781a09b1d6d51b4ba490521cce16aa852f  bin/src/components/button.js
-c3ff8be3570c6ec81c093237ab921355e6c9e0995b72e34110d3c79d00317526134c11619e3e364652651819b3a5f062d9b90693a6df9e6616d60ac3a632d298  bin/src/components/circleConfirmation.js
-3dfb67eb8fd8604452548f8802555e2fd0c799be1a914cd86ad5fc78e9a3bd8849094f792e55d8c17c701448cca2a5bbb08669b02ea2ebfad950a6913044f8b7  bin/src/components/colorPicker.js
-acc26d0e306ecc8b09228dd63f3634e23527c8bbdf4756889df476b0efb2274e8c797bac1c4e4745a69b8aa6529bf21df53a46ff263c6179fe8df6ce53417b13  bin/src/components/content.js
-9738195e7972770c721280f9f78859874c7c626b58dfb7657a218aad06bee2a047ef9ff93ba0a066a72d0ca01730942d480b6eaa5222db92b8cb8992bb844e56  bin/src/components/datePicker.js
-49a8890774d2ccb88bfd2f99929aa43398aad019fe63ae906eda9808f92254d5558872fbcea79036f423bae658c207a45f6c6d1dea3d094d6f1943dc4709051a  bin/src/components/dialog.js
-9cef784a8d7d10324ffd5475c52e788fdd91724ae09b6da2c5b96b688392be73f1f643d0bf0483523fac83b02f91d395b1e7feb2699427bc793f489ec7dc405e  bin/src/components/dropDownList.js
+0e17d0aa4c57db0c2b0bf2dc374413f2fc3ad435166bd7594257c123de539688bf7110d412bb212b0d49234795840bdff80dd6beefba76ee339312bf1260e522  bin/src/components/button.js
+7a7184ec3d763d0eb7e504fee401691912899f7289294d8dffa21bfd92563ecf89a5a9972a17294147c2fb6a002c7efec31561a637ff8dc241b96037244be5da  bin/src/components/circleConfirmation.js
+413cf83f28773ee604b7709cd18544112dd17a2ca4e0c5ba97caf74bbb0d73f380f19884d887b9e7593e60a0daeef386c8b9da80b0834fcd74fc0fe624420ea8  bin/src/components/colorPicker.js
+50fcd03d5ed9766c5b865455ee5050a35f53f22839e61e5aea8673911a0389415f92d7016d87c62d6b4c944d94a7001644203c8f075d690fcb7703b4501cabb0  bin/src/components/content.js
+ab97f0ff82d1eb7bafc4e0e29b06c3f2f7f32aedbc9cdde3f4c99f71ffb5ceb41eb3fcd89d514241d86dee6b4cfe132210f2b58116f233ed1c94d8116f210d38  bin/src/components/datePicker.js
+755596355190dd512fc7ab34b6e0d29504916a15ffad3f0db1f19e6924050e47c0db94106f715a86934e8d7e3c0b98eca7dc4b863542a936c6e6772d50adac92  bin/src/components/dialog.js
+ecc9671ff62b1ee2043410f58fef1a0cf639d267f065945ac436130e1f7e3048a81b3fe38515b3b22bb04371bbc205ddaf1095b3a119a3ef7d0c5cf2abf71637  bin/src/components/dropDownList.js
 509c08611c41cc97de23c22748fa21e074755ea07a7e81cd6ec3d6177e0d94f4e61a48493bf09d09b3b2eb85f98c9b11c30b8c9829412e3598ca519e8c9b01a4  bin/src/components/dropDownListItem.js
 1090355660152708de5f018d0ad8678e9dd4adfa6cd796641e926a69ceb49c7e654a786d4eb679ac9047f913a802ca8f6cdb1471c6d18b51ceb8d724d4ab6771  bin/src/components/gridLayout.js
 25a9ec1621539cf108a63a01faf636cde541df5932fe4cfcf752c4dba48454c7a2138412333d85cda3261283573412373903266b15b1cff361caecb24b064511  bin/src/components/image.js
@@ -229,6 +229,6 @@ ccb59cc4eeb3f4348629a430aded2500d6779cdd3b699c9de853eb3931da970afebdd9bcb2c4c2c7
 378e3eaa45d9d84d494fc5fe5e6d414a4a4bae3da17de4f8a8c066bec55d766ddb3289356d2fde37976916eeb50de1c42a30a1a7a80de9f982b0a97ff3e2c6c5  bin/src/main.js
 #     USER                                                                       TAILDATA0‚>	*†H†÷ ‚/0‚+10	`†He0	*†H†÷1‚0‚0_0R10	UUS10UFlorida10U
 
-Magic Leap10UMagic Leap Internal	 ˆö‚*Ù’‡0	`†He0	*†H†÷ ‚€±Q•GÓÿ>æ$^x<œtáS´Â˜ã´„ÿ´Âä‰„&BhÑ€Pº8Ì¡|Úk•/vá|©Ô¬îŞÀ—9‡sÍšV%z#2AQ”]üOÙ}Ôö÷|¤·ğû4Øåfp˜Ò
-Ìï %mKpUÄŒÆl¿ë+ü|Àæ\®ˆ’¸óô¹~ËŸ`"Bè_R²DÑß:¤OY(ê²ÚØÂ¼ËO?ËKa `íÇS%ög…i§3Mà±ŞYá´b>í>Æ¦ùoã ‘§k&uR©wk},ŸE›^º‚Àœæ…¿
-‘±ãI:•œS¿d	ŞGxGú²M-T 0%V1Š÷è÷2'ãƒ!©xK ?Lò¯sèéè5"/ü’EU‡õ ¦ƒ*›–~F¾eşóNæƒ+úø~¬	á)ß|ìX®ÃıŠ	†vÎõ×äEŞgz½ÔE6¼ı!(9AêĞ&LR5åt9z!÷Š3-¯‰Ëkë]Kş\o¥         B~Module signature appended~
+Magic Leap10UMagic Leap Internal	 ˆö‚*Ù’‡0	`†He0	*†H†÷ ‚€Œphp»0¨l)'õE¼s/ÉQ&—ÍŒèë7W_º¾ú›\Æ¯‘éÀ¯µ¨ÒàĞ0lî8ÓwXfwwDœ‹ÀH–¿)ÇT%:ÊÊìøÚ–v%®Q»\îA†ªİg·€}†Ì* )Wx~È]§ü ³ß›c#·º~û“x5ÊdÌŒ—c´25zÏt’w‚IO¶E)Ej›å®ÇgXSS¥ß|òúDW¿òOÚ|ı.	ÁÿÍ¿Xln°z4
+7:j7‘Ğ‘a(N-'IË© ü!Ñï3sƒlŸiû¥/È µnuı®ŞgÂ™*5â´i½Ğ`Å«¶õ&Z3ÃøE‘È-Oœxô2. ]‘¨yi„ïŞÅÆkG$
+%h,¸›ìU«-# ’Â\V#á“Ë&f?«æV×x‡¼Ë¥¥õ¬nÂqê05ÅOS|üdgBåêõd«sïëÂ£&¢GõAÿO‰3­èå Â½w–»ÚÛOBÎ ş¤ŞÄ         B~Module signature appended~
