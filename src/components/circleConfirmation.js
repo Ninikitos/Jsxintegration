@@ -42,7 +42,6 @@ class CircleConfirmationComp extends React.Component {
     print("render");
     let dialog;
     if (this.state.isCircleComplete) {
-      print("isCircleComplete = true")
       dialog = (
         <Dialog 
           title='Successfully completed confirmation'
@@ -61,7 +60,6 @@ class CircleConfirmationComp extends React.Component {
           onConfirmationCanceled={this.onConfirmationCanceled}
           onConfirmationComplete={this.onConfirmationComplete}
           onConfirmationUpdate={this.onConfirmationUpdate}
-          height={0.2}
         ></CircleConfirmation>
         {dialog}
       </View>

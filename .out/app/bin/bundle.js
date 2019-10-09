@@ -92,6 +92,11 @@ var _ = (function (React) {
       return React.createElement('content', props);
   }
 
+  function Audio (props) {
+      // return (<audio {...props} />);
+      return React.createElement('audio', props);
+  }
+
   class TextComp extends React.Component {
     render() {
       return React.createElement(View, null, React.createElement(Text, {
@@ -403,10 +408,13 @@ var _ = (function (React) {
 
   class AudioComp extends React.Component {
     render() {
-      return React.createElement(View, null, React.createElement(Text, {
-        localPosition: [-0.2, 0.3, 0],
-        textSize: 0.04
-      }, "This is a audio Component"));
+      return React.createElement(View, {
+        name: "main-view"
+      }, React.createElement(Audio, {
+        fileName: "res\\Recording.mp3",
+        loadFile: true,
+        action: "start"
+      }));
     }
 
   }
@@ -438,15 +446,15 @@ var _ = (function (React) {
       });
 
       _defineProperty(this, "onDialogCancel", event => {
-        console.log("onDialogCancel");
+        print("onDialogCancel");
       });
 
       _defineProperty(this, "onDialogConfirm", event => {
-        console.log("onDialogConfirm");
+        print("onDialogConfirm");
       });
 
       _defineProperty(this, "onTimeExpired", event => {
-        console.log('onTimeExpired');
+        print('onTimeExpired');
       });
     }
 
@@ -455,7 +463,6 @@ var _ = (function (React) {
       let dialog;
 
       if (this.state.isCircleComplete) {
-        print("isCircleComplete = true");
         dialog = React.createElement(Dialog, {
           title: "Successfully completed confirmation",
           text: "Your device is ready for a new Mixed Reality seccion",
@@ -472,8 +479,7 @@ var _ = (function (React) {
       }, "This is a circleConfirmation Component"), React.createElement(CircleConfirmation, {
         onConfirmationCanceled: this.onConfirmationCanceled,
         onConfirmationComplete: this.onConfirmationComplete,
-        onConfirmationUpdate: this.onConfirmationUpdate,
-        height: 0.2
+        onConfirmationUpdate: this.onConfirmationUpdate
       }), dialog);
     }
 
@@ -561,11 +567,7 @@ var _ = (function (React) {
       return React.createElement(View, null, React.createElement(Text, {
         localPosition: [-0.2, 0.3, 0],
         textSize: 0.04
-      }, "This is a DropDownList Component"), React.createElement(DropdownList, {
-        text: "Dropdown"
-      }), React.createElement(DropdownListItem, {
-        label: "Item"
-      }));
+      }, "This is a DropDownList Component"));
     }
 
   }

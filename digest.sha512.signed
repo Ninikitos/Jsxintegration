@@ -15,7 +15,7 @@ cc8107d363e4d3a271d6bcd4b0032c5d8b6b6c7b6bfa3a4a105924fc418c3e1d4f4473978669612c
 f0f57dcf8128194c2d9496f3ab64667dcc9eba013e55c815e4ec2f204664f7567bff09e1e61ab5939d099dac45002ce5ecd33f3df3fdfe587c310523bf68c894  bin/_virtual/scheduler.development.js
 ec1e67e8f349cedef600ab4d404c0bda49c0c298a929d1fb730fdc209d28997437c2e3a4d4bb5446d1f065a1d6af9ebc51a7a0a7d0da5c60565431a595045aac  bin/_virtual/scheduler.production.min.js
 9ee08bfe7e9564b0eeae3e6c4d9d974d3e930b012f091f409b1d165065a7bda627aab42135a55756cdf5bbedc40fcf014d4e653064a7a1cc5f564b0454ffeee4  bin/_virtual/tracing.js
-45aaab5efe483ea2771f534cf08a2d500f32682b1adaf1191e2a31b40c54e96cdfdcdeb384393ee3e5c81eec67dca02003641ec1cac8dbf0d9d51b0a1680d11a  bin/bundle.js
+1e521354e538181fe4129808dcaaa485505f3745a38ef193b6420baa232dc55d16a2033605cf3dad1e4c3f2dc1221f540349b8ef4f6fc3836f52a706bed6b292  bin/bundle.js
 bb2b7b516c7370bc1db88055185cc09b88e335d5a6e8d015d11dbddc4cfcb4f24406ac349e22afbab7489ef9da6b03b278025335e6ecafe374f3b8134083f41d  bin/index.js
 73baf20e46939924f70d668c769896be6bb1f80981f2a899061d53911b092ca8a58452dbfd780177401ee83ef25b1c5f76827f057665993d27533aadfa4aeeb4  bin/node_modules/magic-script-components-lumin/index.js
 bc6b18035eb769d572f71177a24c569fbfc3919fd828a0e14b5bccf8e4698ee34a8b66474affe93ba4de9e004ceb7b7b8393768781d5bdc5a57298e247d8f7f6  bin/node_modules/magic-script-components-lumin/src/configuration.js
@@ -152,7 +152,7 @@ c221a9244fa1cf8a112cd7842517f0f2d02df65831de53878ed3168e82699700036fddacc28c7f12
 ef28048cb4d53de812ea4d75ecc9d4abc7b95629649396ac04323256f3150cfecbda98f1f32250c470520b7317d1b00e3e2a1655d9a0067e61ca6a7f1c209249  bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/validator.js
 c17c8185b65fa35096e7d36069804fc76c7ea4105d4a70b69a2d41cf00dcf76a53acc2cf441986c99500862b1efe85c4c29e360d653f81c05396a2181641d1a2  bin/node_modules/magic-script-components-lumin/src/react-magic-script/magic-script-renderer.js
 f209e6b3b225559047fa0bef58291a51232a267e74f8ad7161bb560d731c3e9b7097d5cb333b179eccb6438fbb23690139cad47b0d6fb833a143b448add39429  bin/node_modules/magic-script-components-lumin/src/react-magic-script/react-magic-script.js
-08e366d6afb6f4a3a10a664d0d1af95721326186ef9cb327a4de68edd5c62eece7b0a0dd0457760511f6a75ce44e6af48545be185744f00d1ff3936e0ee82f23  bin/node_modules/magic-script-components/src/components.js
+67ae3e69d21e475d9a4a112f5aa8b4358e36a54d9669951d6385db123dbdb9194d204fa141fe3f2b243141a182c69f80633e0a27d2dd13a3046155a73fafc125  bin/node_modules/magic-script-components/src/components.js
 17baa00053d45408bcbdc54ee5e91d8a76f6fccdc98c70b44f2f0def57ad15866e29b5dd194ea5076afe4aeb2c5eb7232b35fe0474cf51cff8b586e657f11a3b  bin/node_modules/magic-script-polyfills/src/assert.js
 6ef830dd43ed0f2ac8962e09f39fea1f3bc13a5e7940638734e515f22a8fc9f6c2674137f63b37fd1a3e06c6918913a6282fc701c779fe1baac5ea1b22b37642  bin/node_modules/magic-script-polyfills/src/bintools.js
 b1d4354b082c378e97b831e9f9ad4e14a58c38d08842906f089805f3406da45d527d1e9734ca2dff7a5e41fa62123f3a3f36e7cfd5bfa90ff99b027bb599e3cb  bin/node_modules/magic-script-polyfills/src/codec-wrap.js
@@ -190,14 +190,14 @@ b9bc2de68e60a27f0b9e0e20c85a532c4965b69d9170066d6e27a16ff094c1184c32c8419a4f4bf3
 5eeb5bdcd1a5e0d22ab91d8a5dd7922d0a13179a5cc009c7882783785dbe2c1d0da757041a3d39df3aa27e7e8c8ef4007c7990e22af421410eb6d9ef4b294e57  bin/node_modules/scheduler/index.js
 e5f23c82b178e60f2c11719db2e6e551223b7016ac0265ecd98a9d9ec6258e755f400295d4516cd66cb06f0c139607ea44a44e9bd24829585ffc3c703a627719  bin/node_modules/scheduler/tracing.js
 003eae0ad9b6a3f00986fee1da73e06cd62411bda3cd475c8d4264f98b1ee879d1c3954392e3399a53fa001c27f399e0078a8468b5cc432afed67392fd093d0f  bin/src/app.js
-48500131996a2f20bc3478a2213df879abe51a7cab984e103b0f168319e1f69601915b51c799e91a353da5269126c12ad56a9085ec5fbf91941d1513b8cb7edf  bin/src/components/audio.js
+df0be689a33417f220723e00f208e276ddda52ce9f6d0158d5003f897e8c3c94c927ed83933abb946dbb098c4fe5fcd8c6b76b7e2f5ad201bef35d669d7eeb5c  bin/src/components/audio.js
 0e17d0aa4c57db0c2b0bf2dc374413f2fc3ad435166bd7594257c123de539688bf7110d412bb212b0d49234795840bdff80dd6beefba76ee339312bf1260e522  bin/src/components/button.js
-7a7184ec3d763d0eb7e504fee401691912899f7289294d8dffa21bfd92563ecf89a5a9972a17294147c2fb6a002c7efec31561a637ff8dc241b96037244be5da  bin/src/components/circleConfirmation.js
+f2cc6c79d9de0322069fd4fb9b517395e663c0da82532ba266798430fbc3ab8f0ba7235df6d37680c4857062d2e62f92f86f899c13370e7c6fb609375ca322e9  bin/src/components/circleConfirmation.js
 413cf83f28773ee604b7709cd18544112dd17a2ca4e0c5ba97caf74bbb0d73f380f19884d887b9e7593e60a0daeef386c8b9da80b0834fcd74fc0fe624420ea8  bin/src/components/colorPicker.js
 50fcd03d5ed9766c5b865455ee5050a35f53f22839e61e5aea8673911a0389415f92d7016d87c62d6b4c944d94a7001644203c8f075d690fcb7703b4501cabb0  bin/src/components/content.js
 ab97f0ff82d1eb7bafc4e0e29b06c3f2f7f32aedbc9cdde3f4c99f71ffb5ceb41eb3fcd89d514241d86dee6b4cfe132210f2b58116f233ed1c94d8116f210d38  bin/src/components/datePicker.js
 755596355190dd512fc7ab34b6e0d29504916a15ffad3f0db1f19e6924050e47c0db94106f715a86934e8d7e3c0b98eca7dc4b863542a936c6e6772d50adac92  bin/src/components/dialog.js
-ecc9671ff62b1ee2043410f58fef1a0cf639d267f065945ac436130e1f7e3048a81b3fe38515b3b22bb04371bbc205ddaf1095b3a119a3ef7d0c5cf2abf71637  bin/src/components/dropDownList.js
+9cef784a8d7d10324ffd5475c52e788fdd91724ae09b6da2c5b96b688392be73f1f643d0bf0483523fac83b02f91d395b1e7feb2699427bc793f489ec7dc405e  bin/src/components/dropDownList.js
 509c08611c41cc97de23c22748fa21e074755ea07a7e81cd6ec3d6177e0d94f4e61a48493bf09d09b3b2eb85f98c9b11c30b8c9829412e3598ca519e8c9b01a4  bin/src/components/dropDownListItem.js
 1090355660152708de5f018d0ad8678e9dd4adfa6cd796641e926a69ceb49c7e654a786d4eb679ac9047f913a802ca8f6cdb1471c6d18b51ceb8d724d4ab6771  bin/src/components/gridLayout.js
 25a9ec1621539cf108a63a01faf636cde541df5932fe4cfcf752c4dba48454c7a2138412333d85cda3261283573412373903266b15b1cff361caecb24b064511  bin/src/components/image.js
@@ -229,6 +229,6 @@ ccb59cc4eeb3f4348629a430aded2500d6779cdd3b699c9de853eb3931da970afebdd9bcb2c4c2c7
 378e3eaa45d9d84d494fc5fe5e6d414a4a4bae3da17de4f8a8c066bec55d766ddb3289356d2fde37976916eeb50de1c42a30a1a7a80de9f982b0a97ff3e2c6c5  bin/src/main.js
 #     USER                                                                       TAILDATA0‚>	*†H†÷ ‚/0‚+10	`†He0	*†H†÷1‚0‚0_0R10	UUS10UFlorida10U
 
-Magic Leap10UMagic Leap Internal	 ˆö‚*Ù’‡0	`†He0	*†H†÷ ‚€Œphp»0¨l)'õE¼s/ÉQ&—ÍŒèë7W_º¾ú›\Æ¯‘éÀ¯µ¨ÒàĞ0lî8ÓwXfwwDœ‹ÀH–¿)ÇT%:ÊÊìøÚ–v%®Q»\îA†ªİg·€}†Ì* )Wx~È]§ü ³ß›c#·º~û“x5ÊdÌŒ—c´25zÏt’w‚IO¶E)Ej›å®ÇgXSS¥ß|òúDW¿òOÚ|ı.	ÁÿÍ¿Xln°z4
-7:j7‘Ğ‘a(N-'IË© ü!Ñï3sƒlŸiû¥/È µnuı®ŞgÂ™*5â´i½Ğ`Å«¶õ&Z3ÃøE‘È-Oœxô2. ]‘¨yi„ïŞÅÆkG$
-%h,¸›ìU«-# ’Â\V#á“Ë&f?«æV×x‡¼Ë¥¥õ¬nÂqê05ÅOS|üdgBåêõd«sïëÂ£&¢GõAÿO‰3­èå Â½w–»ÚÛOBÎ ş¤ŞÄ         B~Module signature appended~
+Magic Leap10UMagic Leap Internal	 ˆö‚*Ù’‡0	`†He0	*†H†÷ ‚€<¿=nL—Q±,/Î•»UHhÀÀ)´Lò˜`oÜ¹èD$'‹!¡z~ÿÇÿHÃƒæŒ®EœÁ?Ğîn4¿NŒ…f@ÇJ_}¡˜4:ä{i*’Ù¿›‚Œ4´qL“3=^Q‚_B€)‘”àÅĞÏÔÁ±ÔÃ¡	¬;“£$Ï³¨->É6mòœÚ+`¨2J C±×¹ƒcª@š8ìåó¶µÂr®|±Ø1c~‹”jæœÊ
+ä3Şî‚Î|-RSa·Ì»ïÛDšıOK,ådŸ½:ˆVl/Ùˆe%@Dq„jĞÅÚó5¾Vİ°n1`mâ»·+ +üÈİ{¤oHV,a©ä-åöI ñ$áè·çÜÆ:ÊIJ.Í]$ÎŸ¹¢şåÎêz m10	Ğ¥û5,ÎÁwÚ‚H‡s]ÇÂÍ1åˆª…rĞštÛ¡Ç—%Ñ˜¦)
+%Öƒ¿¥#Ú¬†G tÊ”†â]‘+›¨Wşu®+*ò…pói|°Ö	—Mô         B~Module signature appended~

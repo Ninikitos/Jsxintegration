@@ -29,15 +29,15 @@ class CircleConfirmationComp extends React.Component {
     });
 
     _defineProperty(this, "onDialogCancel", event => {
-      console.log("onDialogCancel");
+      print("onDialogCancel");
     });
 
     _defineProperty(this, "onDialogConfirm", event => {
-      console.log("onDialogConfirm");
+      print("onDialogConfirm");
     });
 
     _defineProperty(this, "onTimeExpired", event => {
-      console.log('onTimeExpired');
+      print('onTimeExpired');
     });
   }
 
@@ -46,7 +46,6 @@ class CircleConfirmationComp extends React.Component {
     let dialog;
 
     if (this.state.isCircleComplete) {
-      print("isCircleComplete = true");
       dialog = React.createElement(Dialog, {
         title: "Successfully completed confirmation",
         text: "Your device is ready for a new Mixed Reality seccion",
@@ -63,8 +62,7 @@ class CircleConfirmationComp extends React.Component {
     }, "This is a circleConfirmation Component"), React.createElement(CircleConfirmation, {
       onConfirmationCanceled: this.onConfirmationCanceled,
       onConfirmationComplete: this.onConfirmationComplete,
-      onConfirmationUpdate: this.onConfirmationUpdate,
-      height: 0.2
+      onConfirmationUpdate: this.onConfirmationUpdate
     }), dialog);
   }
 

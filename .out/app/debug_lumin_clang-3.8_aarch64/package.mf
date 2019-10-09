@@ -114,9 +114,9 @@
   },
   {
    "compression": 8,
-   "hash": "a92b6c85a32c0c6c0e30c7b3d6735bbc89ff24b6",
+   "hash": "ddfd0414fc23d609b4f4ff21771f87018080beec",
    "pkgpath": "bin/bundle.js",
-   "size": 34922,
+   "size": 34849,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/bundle.js"
   },
   {
@@ -1073,9 +1073,9 @@
   },
   {
    "compression": 8,
-   "hash": "7b65576ce2cb48c45a690cb108e3e2db23366dc6",
+   "hash": "1d0313dd6eac64633c7837ba4a2f03e57ac9d4e1",
    "pkgpath": "bin/node_modules/magic-script-components/src/components.js",
-   "size": 1990,
+   "size": 2111,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/components.js"
   },
   {
@@ -1339,9 +1339,9 @@
   },
   {
    "compression": 8,
-   "hash": "98f70183a1e894a263137acb7bb66869c39f9ab3",
+   "hash": "b83c707f26ddf97abb0a5991ce1c9df84a6fe562",
    "pkgpath": "bin/src/components/audio.js",
-   "size": 403,
+   "size": 427,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/audio.js"
   },
   {
@@ -1353,9 +1353,9 @@
   },
   {
    "compression": 8,
-   "hash": "699d357cf826d2a8757a0c7b8754535977bccf6c",
+   "hash": "86b34eadd52a052af0db70afacf21d499cd44ad2",
    "pkgpath": "bin/src/components/circleConfirmation.js",
-   "size": 2117,
+   "size": 2040,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/circleConfirmation.js"
   },
   {
@@ -1388,9 +1388,9 @@
   },
   {
    "compression": 8,
-   "hash": "62e206dc8fdcee588809a6b45772b065cfd7ce77",
+   "hash": "6629d7040a1f0829c749dfc09704328cf56ff478",
    "pkgpath": "bin/src/components/dropDownList.js",
-   "size": 559,
+   "size": 424,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/dropDownList.js"
   },
   {
@@ -1598,10 +1598,17 @@
   },
   {
    "compression": 8,
-   "hash": "30f198b7e244a311f027c48441be55f3d2c86622",
+   "hash": "f3f246f360b73c357d1f593a49b1d01b2331744d",
    "pkgpath": "./digest.sha512.signed",
    "size": 48451,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/digest.sha512.signed"
+  },
+  {
+   "compression": 8,
+   "hash": "2725e9fc4c47ba64dd1a4dd1b9331e1ec6f48ea5",
+   "pkgpath": "res/Recording.mp3",
+   "size": 144129,
+   "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/res/Recording.mp3"
   },
   {
    "compression": 8,
