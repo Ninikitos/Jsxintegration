@@ -114,9 +114,9 @@
   },
   {
    "compression": 8,
-   "hash": "ddfd0414fc23d609b4f4ff21771f87018080beec",
+   "hash": "712e837c23c027da1b312bd44e50df16add4de1d",
    "pkgpath": "bin/bundle.js",
-   "size": 34849,
+   "size": 34815,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/bundle.js"
   },
   {
@@ -205,9 +205,9 @@
   },
   {
    "compression": 8,
-   "hash": "e6942c260d765643f46b5fb9f2ef05b17d525fa5",
+   "hash": "54530e41779d05067023c01bf2f2063fe2ff8fa9",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js",
-   "size": 3262,
+   "size": 3252,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js"
   },
   {
@@ -219,16 +219,16 @@
   },
   {
    "compression": 8,
-   "hash": "ff677a922a08cd61efaf41337bfb5fe45cbc7224",
+   "hash": "323645b2fabe8376cb71915dba29ab94aed31edb",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js",
-   "size": 2985,
+   "size": 3675,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js"
   },
   {
    "compression": 8,
-   "hash": "7a76aae2672fba5765fd69084b71ae607834f80d",
+   "hash": "15d3c2172060ccdc1e86b01a0cf9daa2c19e6745",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js",
-   "size": 2727,
+   "size": 3218,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-item-builder.js"
   },
   {
@@ -289,16 +289,16 @@
   },
   {
    "compression": 8,
-   "hash": "7c27fb7ccb864571b4aaf2183dc3069b1b44ce7d",
+   "hash": "606ab98e3b7a236915eb6712682d226b87d0811c",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-builder.js",
-   "size": 5408,
+   "size": 5227,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-builder.js"
   },
   {
    "compression": 8,
-   "hash": "b3666d39c2534271f5aae9bb663034ebdc0bcad1",
+   "hash": "54d19f15b8706d2922a086c2fe1658e6398e9c50",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-item-builder.js",
-   "size": 1565,
+   "size": 1786,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/list-view-item-builder.js"
   },
   {
@@ -317,9 +317,9 @@
   },
   {
    "compression": 8,
-   "hash": "12e0b0f37fc78ba842750c1131fc535cc6a70bcd",
+   "hash": "2ad032783ba8dd888f862170aa4902f6f21cbd9c",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/page-view-builder.js",
-   "size": 3518,
+   "size": 3563,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/page-view-builder.js"
   },
   {
@@ -373,9 +373,9 @@
   },
   {
    "compression": 8,
-   "hash": "6b1a2d25b486734d8926e7c9f79a3aa1b1e6fc2f",
+   "hash": "73f652bd9d16cb90e3144b0cf487b9674dfff677",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-bar-builder.js",
-   "size": 2312,
+   "size": 2132,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-bar-builder.js"
   },
   {
@@ -401,9 +401,9 @@
   },
   {
    "compression": 8,
-   "hash": "0644a964ec50c969ab5c0e0186b4e1bdf3b17d8a",
+   "hash": "6db3574b4c1af714fc85a42cfa5a235189dbc975",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-builder.js",
-   "size": 7637,
+   "size": 7743,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-builder.js"
   },
   {
@@ -415,9 +415,9 @@
   },
   {
    "compression": 8,
-   "hash": "077e4657ae0b5504644af36b2584ee3607a82591",
+   "hash": "57fab0ee1d2c9cbc1adce9e01bfa474ace743878",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-edit-builder.js",
-   "size": 10349,
+   "size": 10865,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/text-edit-builder.js"
   },
   {
@@ -450,9 +450,9 @@
   },
   {
    "compression": 8,
-   "hash": "85384a3c495e3afd68d1a020cad5dd5816e82d61",
+   "hash": "0860a3c37d028542b55839b2e24654a8ac8da395",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/transform-builder.js",
-   "size": 3884,
+   "size": 5057,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/transform-builder.js"
   },
   {
@@ -548,9 +548,9 @@
   },
   {
    "compression": 8,
-   "hash": "f766be36fc443401d93791a3ef400debd4169330",
+   "hash": "18fa0e649ff751b4699cc7d7b784f2d5cdc06c0f",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/platform-factory.js",
-   "size": 15719,
+   "size": 14269,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/platform-factory.js"
   },
   {
@@ -590,9 +590,9 @@
   },
   {
    "compression": 8,
-   "hash": "09f932bfeeb8932e1da7670ac912007656560e22",
+   "hash": "4b643d5fc1253cd4e728d48818eb4a10ecc3f21f",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js",
-   "size": 2192,
+   "size": 2304,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js"
   },
   {
@@ -989,9 +989,9 @@
   },
   {
    "compression": 8,
-   "hash": "1009bcfc2892e2645607f7851096d909033757c2",
+   "hash": "e6bf3a69b29aa0e92b4cf973de6e34ccdab4516f",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-format.js",
-   "size": 3080,
+   "size": 3189,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-format.js"
   },
   {
@@ -1052,7 +1052,7 @@
   },
   {
    "compression": 8,
-   "hash": "cf12166ba894f6f3e47b6a2552ee9083f0948650",
+   "hash": "811e23af405a7ffcb33fe31a5f59a8584e3c758b",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/validator.js",
    "size": 5149,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/utilities/validator.js"
@@ -1374,9 +1374,9 @@
   },
   {
    "compression": 8,
-   "hash": "32cd4c5e58eec4cd84a758c082e30e2a8c176a2e",
+   "hash": "745e2216eaf0b181d1b236892c6c00d21ea92cc9",
    "pkgpath": "bin/src/components/datePicker.js",
-   "size": 717,
+   "size": 685,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/datePicker.js"
   },
   {
@@ -1598,7 +1598,7 @@
   },
   {
    "compression": 8,
-   "hash": "f3f246f360b73c357d1f593a49b1d01b2331744d",
+   "hash": "882cffcd0dfd1421b00859508d646ef8abc52a2c",
    "pkgpath": "./digest.sha512.signed",
    "size": 48451,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/digest.sha512.signed"

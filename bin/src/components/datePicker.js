@@ -9,8 +9,7 @@ class DatePickerComp extends React.Component {
     }, "This is a DatePicker Component"), React.createElement(DatePicker, {
       label: "This is label",
       labelSide: "left",
-      defaultDate: "03/21/1990",
-      dateFormat: "MM/DD/YYYY",
+      defaultDate: "03/21/1991",
       color: [0.23, 0.13, 0.98, 1],
       height: 0.5,
       yearMin: 1990,
