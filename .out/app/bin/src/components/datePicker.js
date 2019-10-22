@@ -7,10 +7,11 @@ class DatePickerComp extends React.Component {
       localPosition: [-0.2, 0.3, 0],
       textSize: 0.04
     }, "This is a DatePicker Component"), React.createElement(DatePicker, {
-      label: "This is label",
+      label: "Select Date",
       labelSide: "left",
-      defaultDate: "03/21/1991",
-      color: [0.23, 0.13, 0.98, 1],
+      color: [0.112, 0.655, 0.766, 1],
+      defaultDate: "03/21/2019",
+      showHint: false,
       height: 0.5,
       yearMin: 1990,
       yearMax: 2020,

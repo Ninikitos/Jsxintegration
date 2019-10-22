@@ -1,11 +1,38 @@
-import React from 'react';
-import { View, Text, DropDownList } from 'magic-script-components';
+import React from "react";
+import { View, DropdownList, DropdownListItem } from "magic-script-components";
 
 class DropDownListComp extends React.Component {
-  render () {
+  state = { selectedId: undefined };
+
+  onSelection = eventData => {
+    console.log("Selected items:", eventData.SelectedItems);
+  };
+
+  render() {
+    const moons = [
+      "Europa",
+      "Ganymede",
+      "Io",
+      "Callisto",
+      "Valetudo",
+      "Amalthea"
+    ];
+
     return (
-      <View>
-        <Text localPosition={[-0.2, 0.3, 0]} textSize={0.04}>This is a DropDownList Component</Text>
+      <View name="main-view">
+        <DropdownList
+          localPosition={[0, 0.2, 0]}
+          text="Select Moon"
+          textSize={0.1}
+          iconColor={[0.5, 1.0, 0.5, 0.8]}
+          onSelectionChanged={this.onSelection}
+          multiSelect={true}
+          showList={false}
+        >
+          {moons.map((moon, index) => (
+            <DropdownListItem id={index} label={moon} />
+          ))}
+        </DropdownList>
       </View>
     );
   }

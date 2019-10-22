@@ -4,9 +4,9 @@ import { View, Text } from '../../node_modules/magic-script-components/src/compo
 class DropDownListItemComp extends React.Component {
   render() {
     return React.createElement(View, null, React.createElement(Text, {
-      localPosition: [-0.2, 0.3, 0],
+      localPosition: [-0.6, 0.3, 0],
       textSize: 0.04
-    }, "This is a DropDownListItem Component"));
+    }, "DropDownListItem Component is being tested in DropDownList scene"));
   }
 
 }

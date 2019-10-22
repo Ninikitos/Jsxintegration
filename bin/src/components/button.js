@@ -1,7 +1,22 @@
 import React from '../../node_modules/react/index.js';
+import { defineProperty as _defineProperty } from '../../_virtual/_rollupPluginBabelHelpers.js';
 import { View, Text, Button } from '../../node_modules/magic-script-components/src/components.js';
 
 class ButtonComp extends React.Component {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "state", {
+      visible: true
+    });
+
+    _defineProperty(this, "isVisibleClick", event => {
+      this.setState({
+        visible: false
+      });
+    });
+  }
+
   render() {
     return React.createElement(View, null, React.createElement(Text, {
       localPosition: [-0.825, 0.5, 0],
@@ -65,7 +80,9 @@ class ButtonComp extends React.Component {
       localPosition: [0.6, 0.4, 0],
       iconType: "thumbs-up",
       type: "icon",
-      height: 0.1
+      height: 0.1,
+      visible: this.state.visible,
+      onClick: this.isVisibleClick
     }), React.createElement(Text, {
       localPosition: [0.5, 0.2, 0],
       textSize: 0.03

@@ -114,9 +114,9 @@
   },
   {
    "compression": 8,
-   "hash": "712e837c23c027da1b312bd44e50df16add4de1d",
+   "hash": "76c0a8e208d9598c78ebfb88e860af58fecea027",
    "pkgpath": "bin/bundle.js",
-   "size": 34815,
+   "size": 38611,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/bundle.js"
   },
   {
@@ -205,9 +205,9 @@
   },
   {
    "compression": 8,
-   "hash": "54530e41779d05067023c01bf2f2063fe2ff8fa9",
+   "hash": "6b649655cbca347f51981a3faccffcf06df797ef",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js",
-   "size": 3252,
+   "size": 3348,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/date-picker-builder.js"
   },
   {
@@ -219,9 +219,9 @@
   },
   {
    "compression": 8,
-   "hash": "323645b2fabe8376cb71915dba29ab94aed31edb",
+   "hash": "811fd996e7e0a69e79593f46785097c5d1351e1d",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js",
-   "size": 3675,
+   "size": 3679,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/dropdown-list-builder.js"
   },
   {
@@ -254,16 +254,16 @@
   },
   {
    "compression": 8,
-   "hash": "af9091e02b9cda3a294f7c68bff97b711e07a053",
+   "hash": "670cb57a9c0af69f0ea19520040ae5ed176d6205",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/image-builder.js",
-   "size": 4127,
+   "size": 4823,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/image-builder.js"
   },
   {
    "compression": 8,
-   "hash": "47edef8a4fef9fa0a9f70614191bf9814cd4ef32",
+   "hash": "695ae88b20c1de69afac5242eb55d89211abdd0b",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/layout-builder.js",
-   "size": 1305,
+   "size": 1303,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/layout-builder.js"
   },
   {
@@ -324,16 +324,16 @@
   },
   {
    "compression": 8,
-   "hash": "5f60035e3e364a77bad8e979d1c207e0e7dcbe85",
+   "hash": "65a6561d632cfb5f7d40ba933c3c764ecd8be2bc",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/panel-builder.js",
-   "size": 4130,
+   "size": 4260,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/panel-builder.js"
   },
   {
    "compression": 8,
-   "hash": "c0a6c6a5dbc941333acc0de2a5ab20ff8232a89f",
+   "hash": "99baa411088d782b5104542508f896cc7b135d5b",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/portal-icon-builder.js",
-   "size": 3093,
+   "size": 3240,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/portal-icon-builder.js"
   },
   {
@@ -380,9 +380,9 @@
   },
   {
    "compression": 8,
-   "hash": "adfe3232dc1a9793742b3a165cdab38cdf3eb6d2",
+   "hash": "ea9ef956e76c00322e93a7ec4983bd2f8fb6cbd1",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-view-builder.js",
-   "size": 2420,
+   "size": 2433,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/scroll-view-builder.js"
   },
   {
@@ -429,9 +429,9 @@
   },
   {
    "compression": 8,
-   "hash": "80705be9fe8368501c5f398268926e23ec251554",
+   "hash": "04d470a424afd76c69833b0494d3081a4f8680ce",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/time-picker-builder.js",
-   "size": 2689,
+   "size": 2816,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/elements/builders/time-picker-builder.js"
   },
   {
@@ -548,9 +548,9 @@
   },
   {
    "compression": 8,
-   "hash": "18fa0e649ff751b4699cc7d7b784f2d5cdc06c0f",
+   "hash": "d604eed90e20d221465b9c506cff088078c9e79f",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/platform-factory.js",
-   "size": 14269,
+   "size": 14419,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/platform-factory.js"
   },
   {
@@ -590,9 +590,9 @@
   },
   {
    "compression": 8,
-   "hash": "4b643d5fc1253cd4e728d48818eb4a10ecc3f21f",
+   "hash": "4ee6277669431bf62fa5900b9f538eec74e59efe",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js",
-   "size": 2304,
+   "size": 2001,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/date-format.js"
   },
   {
@@ -989,9 +989,9 @@
   },
   {
    "compression": 8,
-   "hash": "e6bf3a69b29aa0e92b4cf973de6e34ccdab4516f",
+   "hash": "5e72d3fe38dab23080b7b74a50067075f69b4559",
    "pkgpath": "bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-format.js",
-   "size": 3189,
+   "size": 3127,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components-lumin/src/platform/lumin-runtime/types/time-format.js"
   },
   {
@@ -1073,9 +1073,9 @@
   },
   {
    "compression": 8,
-   "hash": "1d0313dd6eac64633c7837ba4a2f03e57ac9d4e1",
+   "hash": "62a8b272a7145e864d1dc253ee4aafc6cfaa1158",
    "pkgpath": "bin/node_modules/magic-script-components/src/components.js",
-   "size": 2111,
+   "size": 2566,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/node_modules/magic-script-components/src/components.js"
   },
   {
@@ -1346,9 +1346,9 @@
   },
   {
    "compression": 8,
-   "hash": "8e309715a7cb639edb2246842334f40703992e86",
+   "hash": "20d9fdff7f6ea0c463ae9ae7c0b056d8779c3433",
    "pkgpath": "bin/src/components/button.js",
-   "size": 2812,
+   "size": 3215,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/button.js"
   },
   {
@@ -1374,37 +1374,37 @@
   },
   {
    "compression": 8,
-   "hash": "745e2216eaf0b181d1b236892c6c00d21ea92cc9",
+   "hash": "1e13d178221cc7f59a6a7e784ffae86642c430a4",
    "pkgpath": "bin/src/components/datePicker.js",
-   "size": 685,
+   "size": 709,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/datePicker.js"
   },
   {
    "compression": 8,
-   "hash": "dcf6576652699dd23d04f32e45bee4bf0abcbe22",
+   "hash": "b0f4c5649f91776611f1268c541a85d9ec12a77e",
    "pkgpath": "bin/src/components/dialog.js",
-   "size": 665,
+   "size": 1673,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/dialog.js"
   },
   {
    "compression": 8,
-   "hash": "6629d7040a1f0829c749dfc09704328cf56ff478",
+   "hash": "85524f0408844c7e5cb466d3cf9fe98983b737fd",
    "pkgpath": "bin/src/components/dropDownList.js",
-   "size": 424,
+   "size": 1147,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/dropDownList.js"
   },
   {
    "compression": 8,
-   "hash": "f4417c05aa18227be752243d520a6c77de423537",
+   "hash": "2673405542ff8f7a11eca0506e4d76c37027aab2",
    "pkgpath": "bin/src/components/dropDownListItem.js",
-   "size": 436,
+   "size": 464,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/dropDownListItem.js"
   },
   {
    "compression": 8,
-   "hash": "38a3b1501da7647900f306c680e0926fab798fb5",
+   "hash": "dd75726e65d639e9bc04e8700c8a45180a98c2a1",
    "pkgpath": "bin/src/components/gridLayout.js",
-   "size": 418,
+   "size": 1831,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/bin/src/components/gridLayout.js"
   },
   {
@@ -1598,7 +1598,7 @@
   },
   {
    "compression": 8,
-   "hash": "882cffcd0dfd1421b00859508d646ef8abc52a2c",
+   "hash": "dae0cf26630632e36aaf6c8078d6822e080a25fc",
    "pkgpath": "./digest.sha512.signed",
    "size": 48451,
    "src": "C:/Users/nilin/Desktop/qa_mxs_jsxintegration/digest.sha512.signed"

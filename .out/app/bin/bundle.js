@@ -67,6 +67,21 @@ var _ = (function (React) {
       return React.createElement('scrollView', props);
   }
 
+  function GridLayout (props) {
+      // return (<gridLayout {...props} />);
+      return React.createElement('gridLayout', props);
+  }
+
+  function DropdownList (props) {
+      // return (<dropdownList {...props} />);
+      return React.createElement('dropdownList', props);
+  }
+
+  function DropdownListItem (props) {
+      // return (<dropdownListItem {...props} />);
+      return React.createElement('dropdownListItem', props);
+  }
+
   function Dialog (props) {
       // return (<dialog {...props} />);
       return React.createElement('dialog', props);
@@ -329,6 +344,20 @@ var _ = (function (React) {
   }
 
   class ButtonComp extends React.Component {
+    constructor(...args) {
+      super(...args);
+
+      _defineProperty(this, "state", {
+        visible: true
+      });
+
+      _defineProperty(this, "isVisibleClick", event => {
+        this.setState({
+          visible: false
+        });
+      });
+    }
+
     render() {
       return React.createElement(View, null, React.createElement(Text, {
         localPosition: [-0.825, 0.5, 0],
@@ -392,7 +421,9 @@ var _ = (function (React) {
         localPosition: [0.6, 0.4, 0],
         iconType: "thumbs-up",
         type: "icon",
-        height: 0.1
+        height: 0.1,
+        visible: this.state.visible,
+        onClick: this.isVisibleClick
       }), React.createElement(Text, {
         localPosition: [0.5, 0.2, 0],
         textSize: 0.03
@@ -531,10 +562,11 @@ var _ = (function (React) {
         localPosition: [-0.2, 0.3, 0],
         textSize: 0.04
       }, "This is a DatePicker Component"), React.createElement(DatePicker, {
-        label: "This is label",
+        label: "Select Date",
         labelSide: "left",
-        defaultDate: "03/21/1991",
-        color: [0.23, 0.13, 0.98, 1],
+        color: [0.112, 0.655, 0.766, 1],
+        defaultDate: "03/21/2019",
+        showHint: false,
         height: 0.5,
         yearMin: 1990,
         yearMax: 2020,
@@ -545,28 +577,84 @@ var _ = (function (React) {
   }
 
   class DialogComp extends React.Component {
+    constructor(...args) {
+      super(...args);
+
+      _defineProperty(this, "state", {
+        requestUserConfirmation: true,
+        dismissNotification: false
+      });
+
+      _defineProperty(this, "onDialogCancel", event => {
+        this.setState({
+          requestUserConfirmation: false
+        });
+        console.log("User pressed Cancel");
+      });
+
+      _defineProperty(this, "onDialogConfirm", event => {
+        this.setState({
+          requestUserConfirmation: false,
+          dismissNotification: true
+        });
+        console.log("User wants to dismiss notification");
+      });
+    }
+
     render() {
-      return React.createElement(View, null, React.createElement(Text, {
-        localPosition: [-0.2, 0.3, 0],
-        textSize: 0.04
-      }, "This is a Dialog Component"), React.createElement(Dialog, {
-        title: "Successfully completed confirmation",
-        text: "Your device is ready for a new Mixed Reality seccion",
-        type: "timed",
-        expireTime: 0.1,
-        layout: "standard",
-        scrolling: false
-      }));
+      const dialog = this.state.requestUserConfirmation ? React.createElement(Dialog, {
+        buttonType: "text-with-icon",
+        dialogType: "dual-action",
+        dialogLayout: "wide",
+        cancelIcon: "close",
+        cancelText: "No",
+        confirmIcon: "check",
+        confirmText: "Yes",
+        title: "Please confirm:",
+        text: "Dismiss the notification ?",
+        onCancel: this.onDialogCancel,
+        onConfirm: this.onDialogConfirm
+      }) : undefined;
+      const notification = this.state.dismissNotification ? undefined : React.createElement(Text, {
+        key: "notification",
+        textSize: 0.035,
+        text: "You have recieved message!",
+        localPosition: [-0.175, 0.3, 0]
+      });
+      return React.createElement(View, null, notification, dialog);
     }
 
   }
 
   class DropDownListComp extends React.Component {
+    constructor(...args) {
+      super(...args);
+
+      _defineProperty(this, "state", {
+        selectedId: undefined
+      });
+
+      _defineProperty(this, "onSelection", eventData => {
+        console.log("Selected items:", eventData.SelectedItems);
+      });
+    }
+
     render() {
-      return React.createElement(View, null, React.createElement(Text, {
-        localPosition: [-0.2, 0.3, 0],
-        textSize: 0.04
-      }, "This is a DropDownList Component"));
+      const moons = ["Europa", "Ganymede", "Io", "Callisto", "Valetudo", "Amalthea"];
+      return React.createElement(View, {
+        name: "main-view"
+      }, React.createElement(DropdownList, {
+        localPosition: [0, 0.2, 0],
+        text: "Select Moon",
+        textSize: 0.1,
+        iconColor: [0.5, 1.0, 0.5, 0.8],
+        onSelectionChanged: this.onSelection,
+        multiSelect: true,
+        showList: false
+      }, moons.map((moon, index) => React.createElement(DropdownListItem, {
+        id: index,
+        label: moon
+      }))));
     }
 
   }
@@ -574,19 +662,58 @@ var _ = (function (React) {
   class DropDownListItemComp extends React.Component {
     render() {
       return React.createElement(View, null, React.createElement(Text, {
-        localPosition: [-0.2, 0.3, 0],
+        localPosition: [-0.6, 0.3, 0],
         textSize: 0.04
-      }, "This is a DropDownListItem Component"));
+      }, "DropDownListItem Component is being tested in DropDownList scene"));
     }
 
   }
 
   class GridLayoutComp extends React.Component {
+    constructor(...args) {
+      super(...args);
+
+      _defineProperty(this, "state", {
+        aligment: "center-center",
+        index: 0
+      });
+
+      _defineProperty(this, "onButtonClick", () => {
+        this.setState(state => ({
+          aligment: this.newAligment[this.state.index],
+          index: state.index < this.newAligment.length - 1 ? state.index + 1 : state.index = 0
+        }));
+        print(this.state.index);
+        print(this.state.aligment);
+      });
+
+      _defineProperty(this, "newAligment", ["top-left", "top-center", "top-right", "center-left", "center-center", "center-right", "bottom-left", "bottom-center", "bottom-right"]);
+    }
+
     render() {
-      return React.createElement(View, null, React.createElement(Text, {
+      const moons = ["Europa", "Ganymede", "Io", "Callisto", "Valetudo", "Amalthea", "Metis", "Ananke", "Carme"];
+      return React.createElement(View, {
+        name: "main-view"
+      }, React.createElement(Text, {
         localPosition: [-0.2, 0.3, 0],
         textSize: 0.04
-      }, "This is a GridLayout Component"));
+      }, "This is a GridLayout Component"), React.createElement(Button, {
+        localPosition: [0, -0.3, 0],
+        height: 0.1,
+        onClick: this.onButtonClick
+      }, "Change Alignment"), React.createElement(GridLayout, {
+        columns: 3,
+        rows: 3,
+        height: 0.6,
+        width: 0.4,
+        defaultItemAlignment: this.state.aligment,
+        defaultItemPadding: [0.02, 0.02, 0.02, 0.02],
+        localPosition: [-0.25, 0.25, 0]
+      }, moons.map((moon, index) => React.createElement(Text, {
+        textSize: 0.05,
+        key: index,
+        text: moon
+      }))));
     }
 
   }
